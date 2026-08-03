@@ -1,0 +1,97 @@
+# 📂 Selected Dataset
+
+## Dataset Information
+
+| Attribute | Value |
+|-----------|-------|
+| Dataset Name | 100000 Sales Records |
+| Domain | Sales |
+| Source | Excel BI Analytics |
+| Website | https://excelbianalytics.com/downloads-18-sample-csv-files-data-sets-for-testing-sales/ |
+| Format | CSV |
+| Records | 100,000 |
+| Columns | 14 |
+
+---
+
+# Dataset Description
+
+This dataset contains transactional sales data from multiple countries and regions. It includes information related to products, sales channels, order priorities, pricing, costs, profits, and shipping dates.
+
+The dataset is suitable for learning the complete Data Analysis workflow, including Data Understanding, Data Cleaning, Exploratory Data Analysis (EDA), Visualization, Dashboard Development, and Business Reporting.
+
+---
+
+# Why This Dataset?
+
+The dataset was selected because it offers the best balance between size, structure, and analysis potential.
+
+Selection considerations:
+
+- Large number of observations (100,000 records).
+- Clean tabular structure.
+- Multiple numerical and categorical variables.
+- Suitable for descriptive statistics.
+- Ideal for SQL practice.
+- Supports dashboard development.
+- Suitable for long-term portfolio projects.
+
+---
+
+# Expected Business Questions
+
+This dataset can help answer questions such as:
+
+- Which region generates the highest revenue?
+- Which item types contribute the most to total sales?
+- Which sales channel performs better?
+- How do sales trends change over time?
+- Which countries contribute the highest revenue?
+- What is the relationship between units sold and profit?
+- Which order priorities are most common?
+
+---
+
+# Planned Workflow
+
+```text
+Dataset Collection
+        ↓
+Data Understanding
+        ↓
+Data Profiling
+        ↓
+Data Cleaning
+        ↓
+Exploratory Data Analysis
+        ↓
+Visualization
+        ↓
+Business Insights
+        ↓
+Dashboard
+        ↓
+Final Report
+```
+
+---
+
+# Expected Deliverables
+
+This dataset will be used to produce:
+
+- Dataset Metadata
+- Data Dictionary
+- Data Understanding Report
+- Data Profiling Report
+- Clean Dataset
+- Exploratory Data Analysis Notebook
+- Business Insights
+- Interactive Dashboard
+- Final Presentation
+
+---
+
+# Status
+
+**Selected as the primary dataset for the Industry Simulation Program and the main dataset for subsequent weekly projects.**
