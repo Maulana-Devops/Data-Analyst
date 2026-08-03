@@ -1,0 +1,82 @@
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+.venv/
+env/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Temporary
+
+*.tmp
+
+*.temp
+
+# Python cache
+
+.pytest_cache/
+
+# Coverage
+
+.coverage
+htmlcov/
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Environment
+
+.env
+
+# Google Colab
+
+/content/
+
+# Dataset cache
+
+*.sqlite
+*.db
+
+# Large files (optional)
+
+*.zip
+*.rar
+*.7z
+
+# Generated reports
+
+*.aux
+*.toc
