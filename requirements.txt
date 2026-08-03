@@ -1,0 +1,14 @@
+# =====================================
+# Data Analysis PKL Requirements
+# =====================================
+
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+jupyter
+notebook
+openpyxl
+xlsxwriter
+scipy
