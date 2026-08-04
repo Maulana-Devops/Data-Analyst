@@ -1,0 +1,72 @@
+# 📖 Data Dictionary
+
+## Project Information
+
+| Information | Value |
+|------------|-------|
+| Project | Industry Simulation Program – Data Analyst |
+| Week | Week 02 – Data Collection & Understanding |
+| Day | Day 02 |
+| Topic | Data Dictionary |
+| Dataset | 100000 Sales Records |
+
+---
+
+# Overview
+
+A Data Dictionary is a document that describes the structure of a dataset. It explains the meaning, data type, and purpose of each column to ensure consistent understanding before analysis begins.
+
+Creating a Data Dictionary is an essential step because it helps analysts understand the dataset before performing data cleaning, exploratory data analysis, or visualization.
+
+---
+
+# Dataset Summary
+
+| Attribute | Value |
+|-----------|-------|
+| Dataset Name | 100000 Sales Records |
+| File Format | CSV |
+| Total Records | 100,000 |
+| Total Columns | 14 |
+| Domain | Sales |
+
+---
+
+# Data Dictionary
+
+| No | Column Name | Data Type | Description | Example |
+|----|-------------|-----------|-------------|---------|
+| 1 | Region | Object | Geographic region where the sales transaction occurred. | Asia |
+| 2 | Country | Object | Country associated with the sales transaction. | Indonesia |
+| 3 | Item Type | Object | Category of the product sold. | Office Supplies |
+| 4 | Sales Channel | Object | Sales method used for the transaction. | Online |
+| 5 | Order Priority | Object | Priority assigned to the customer order. | High |
+| 6 | Order Date | Date | Date when the order was placed. | 2025-01-15 |
+| 7 | Order ID | Integer | Unique identifier for each order. | 123456789 |
+| 8 | Ship Date | Date | Date when the order was shipped. | 2025-01-20 |
+| 9 | Units Sold | Integer | Number of units sold in the transaction. | 150 |
+| 10 | Unit Price | Float | Selling price per unit. | 250.50 |
+| 11 | Unit Cost | Float | Cost incurred per unit. | 180.25 |
+| 12 | Total Revenue | Float | Total revenue generated from the transaction. | 37,575.00 |
+| 13 | Total Cost | Float | Total cost associated with the transaction. | 27,037.50 |
+| 14 | Total Profit | Float | Profit obtained from the transaction (Revenue - Cost). | 10,537.50 |
+
+---
+
+# Notes
+
+- Data types listed above are expected data types based on the dataset structure.
+- Actual data types will be verified during **Day 03 – Data Understanding** using Python and Pandas.
+- Any discrepancies identified during exploration will be documented and updated.
+
+---
+
+# Conclusion
+
+The Data Dictionary provides a clear explanation of each variable contained in the dataset. This documentation serves as a reference for the next stages of the project, including Data Understanding, Data Profiling, Data Cleaning, and Exploratory Data Analysis.
+
+---
+
+# Next Step
+
+Proceed to **Day 03 – Data Understanding** to explore the dataset using Python and validate the documented metadata.
