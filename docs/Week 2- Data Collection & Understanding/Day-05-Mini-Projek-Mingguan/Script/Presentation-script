@@ -1,0 +1,114 @@
+# Presentation Script
+## Week 02 – Mini Project
+### Industry Simulation Program – Data Analyst
+
+**Dataset:** 100000 Sales Records
+
+---
+
+## Slide 1 – Pembukaan
+
+Assalamu'alaikum warahmatullahi wabarakatuh.
+
+Perkenalkan, nama saya **Maulana Aldi Pradana**.
+
+Pada kesempatan kali ini saya akan mempresentasikan hasil mini project minggu kedua dalam program Industry Simulation Data Analyst.
+
+Topik yang akan saya bahas adalah analisis awal terhadap dataset **100000 Sales Records**.
+
+Analisis ini bertujuan untuk memahami karakteristik dataset sebelum memasuki tahap Data Cleaning dan Exploratory Data Analysis.
+
+---
+
+## Slide 2 – Dataset yang Dipilih
+
+Dataset yang saya gunakan adalah **100000 Sales Records**.
+
+Dataset ini berisi **100.000 data transaksi penjualan** dengan total **14 variabel**.
+
+Data disimpan dalam format **CSV** sehingga mudah diolah menggunakan Python maupun Microsoft Excel.
+
+Dataset ini dipilih karena memiliki jumlah data yang cukup besar serta memuat informasi penting mengenai aktivitas penjualan seperti wilayah, negara, kategori produk, jumlah penjualan, pendapatan, biaya, dan keuntungan.
+
+Dengan karakteristik tersebut, dataset sangat sesuai digunakan untuk proses pembelajaran Data Analysis.
+
+---
+
+## Slide 3 – Sumber Data
+
+Dataset diperoleh dari website **ExcelX Practice Data**.
+
+Website tersebut menyediakan berbagai dataset latihan yang umum digunakan untuk pembelajaran analisis data.
+
+Alasan saya memilih dataset ini adalah karena memiliki struktur data yang cukup lengkap, mudah dipahami oleh pemula, dan memiliki banyak kemungkinan analisis yang dapat dikembangkan pada tahap berikutnya.
+
+---
+
+## Slide 4 – Struktur Dataset
+
+Berdasarkan hasil eksplorasi menggunakan library Pandas, dataset memiliki **100.000 baris data** dan **14 kolom**.
+
+Variabel dalam dataset terdiri dari beberapa tipe data.
+
+Terdapat **7 kolom bertipe object**, **2 kolom bertipe integer**, dan **5 kolom bertipe float**.
+
+Seluruh data berhasil dibaca dengan baik menggunakan Pandas dan tidak ditemukan kendala saat proses import dataset.
+
+Struktur data yang lengkap ini menjadi dasar yang baik untuk proses analisis selanjutnya.
+
+---
+
+## Slide 5 – Variabel Penting
+
+Beberapa variabel yang dianggap penting dalam dataset ini antara lain:
+
+- Region
+- Country
+- Item Type
+- Sales Channel
+- Units Sold
+- Total Revenue
+- Total Cost
+- Total Profit
+
+Variabel-variabel tersebut dapat digunakan untuk menganalisis performa penjualan dari berbagai sudut pandang, misalnya berdasarkan wilayah, kategori produk, maupun keuntungan yang dihasilkan.
+
+---
+
+## Slide 6 – Potensi Analisis dan Kendala Dataset
+
+Dataset ini memiliki banyak potensi analisis.
+
+Beberapa di antaranya adalah:
+
+- Analisis penjualan berdasarkan negara.
+- Analisis keuntungan berdasarkan kategori produk.
+- Perbandingan penjualan melalui saluran Online dan Offline.
+- Analisis total pendapatan dan keuntungan.
+- Pembuatan dashboard penjualan.
+
+Namun, terdapat beberapa kendala yang perlu diperhatikan.
+
+Kolom **Order Date** dan **Ship Date** masih bertipe **object** sehingga perlu dikonversi menjadi **datetime** sebelum digunakan untuk analisis berbasis waktu.
+
+Selain itu, dataset tidak memiliki informasi pelanggan, diskon, maupun metode pembayaran sehingga ruang lingkup analisis menjadi terbatas.
+
+---
+
+## Slide 7 – Rekomendasi Penggunaan Dataset
+
+Berdasarkan hasil eksplorasi awal, saya menilai bahwa dataset ini sangat layak digunakan sebagai media pembelajaran Data Analysis.
+
+Dataset memiliki struktur yang lengkap, tidak ditemukan missing value pada pemeriksaan awal, serta memiliki jumlah data yang cukup besar sehingga cocok digunakan untuk latihan Data Cleaning, Exploratory Data Analysis, Visualisasi Data, hingga pembuatan Dashboard.
+
+Pada minggu berikutnya, dataset ini akan digunakan untuk proses Data Cleaning sehingga kualitas data dapat ditingkatkan sebelum dilakukan analisis yang lebih mendalam.
+
+---
+
+## Penutup
+
+Demikian presentasi yang dapat saya sampaikan mengenai hasil analisis awal dataset **100000 Sales Records**.
+
+Terima kasih atas perhatian yang diberikan.
+
+Wassalamu'alaikum warahmatullahi wabarakatuh.
