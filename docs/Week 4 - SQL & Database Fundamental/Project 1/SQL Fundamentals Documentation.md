@@ -119,7 +119,7 @@ The query returns a single column containing the product names.
 
 ### Evidence
 
-![Quiz 2 Result](../evidence/quiz-02.png)
+![Quiz 2 Result](../image/quiz-02.png)
 
 ---
 
@@ -155,7 +155,7 @@ The result contains the selected product name and price columns.
 
 ### Evidence
 
-![Quiz 3 Result](../evidence/quiz-03.png)
+![Quiz 3 Result](../image/quiz-03.png)
 
 ---
 
@@ -189,7 +189,7 @@ The result displays the first five rows returned by the query.
 
 ### Evidence
 
-![Quiz 4 Result](../evidence/quiz-04.png)
+![Quiz 4 Result](../image/quiz-04.png)
 
 ---
 
