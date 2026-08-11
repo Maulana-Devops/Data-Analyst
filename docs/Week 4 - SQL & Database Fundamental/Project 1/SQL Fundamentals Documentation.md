@@ -84,7 +84,9 @@ ms_produk
 
 ### Evidence
 
-![Quiz 1 Result](../image/quiz-01.png)
+### Evidence
+
+![Quiz 1 Result](image/quiz-01.png)
 
 ---
 
@@ -119,8 +121,8 @@ The query returns a single column containing the product names.
 
 ### Evidence
 
-![Quiz 2 Result](../image/quiz-02.png)
 
+![Quiz 2 Result](image/quiz-02.png)
 ---
 
 ## Quiz 3 - Select Multiple Columns
@@ -155,7 +157,7 @@ The result contains the selected product name and price columns.
 
 ### Evidence
 
-![Quiz 3 Result](../image/quiz-03.png)
+![Quiz 3 Result](image/quiz-03.png)
 
 ---
 
@@ -189,7 +191,7 @@ The result displays the first five rows returned by the query.
 
 ### Evidence
 
-![Quiz 4 Result](../image/quiz-04.png)
+![Quiz 4 Result](image/quiz-04.png)
 
 ---
 
