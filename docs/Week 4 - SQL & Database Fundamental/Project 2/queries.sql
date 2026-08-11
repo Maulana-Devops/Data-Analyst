@@ -1,48 +1,42 @@
 -- Project 02 - SQL Alias, Prefix & DISTINCT
 
-
--- Quiz 1
--- DISTINCT
--- Query akan ditambahkan setelah target output Quiz 1 dikonfirmasi.
-
-
--- Quiz 2
--- Column Prefix
--- Query akan ditambahkan setelah target output Quiz 2 dikonfirmasi.
+-- Quiz 1 - DISTINCT
+SELECT DISTINCT nama_customer
+FROM ms_pelanggan;
 
 
--- Quiz 3
--- Alias pada Kolom
+-- Quiz 2 - Column Prefix
+SELECT ms_pelanggan.nama_customer
+FROM ms_pelanggan;
+
+
+-- Quiz 3 - Column Alias
 SELECT
     no_urut AS nomor,
-    nama_produk AS nama
-FROM ms_produk;
+    nama_customer AS nama
+FROM ms_pelanggan;
 
 
--- Quiz 4
--- Alias tanpa keyword AS
+-- Quiz 4 - Alias without AS
 SELECT
     no_urut nomor,
-    nama_produk nama
-FROM ms_produk;
+    nama_customer nama
+FROM ms_pelanggan;
 
 
--- Quiz 5
--- Prefix + Alias
+-- Quiz 5 - Prefix + Alias
 SELECT
-    ms_produk.harga AS harga_jual
-FROM ms_produk;
+    ms_pelanggan.nama_customer AS nama
+FROM ms_pelanggan;
 
 
--- Quiz 6
--- Table Alias tanpa keyword AS
+-- Quiz 6 - Table Alias
 SELECT *
-FROM ms_produk t2;
+FROM ms_pelanggan t2;
 
 
--- Quiz 7
--- Prefix + Table Alias
+-- Quiz 7 - Prefix + Table Alias
 SELECT
-    t2.nama_produk,
-    t2.harga
-FROM ms_produk t2;
+    t2.nama_customer,
+    t2.alamat
+FROM ms_pelanggan t2;
