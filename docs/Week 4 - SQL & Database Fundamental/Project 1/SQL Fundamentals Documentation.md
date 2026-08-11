@@ -84,7 +84,7 @@ ms_produk
 
 ### Evidence
 
-![Quiz 1 Result](../evidence/quiz-01.png)
+![Quiz 1 Result](../image/quiz-01.png)
 
 ---
 
