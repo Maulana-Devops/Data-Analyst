@@ -1,1 +1,24 @@
--- Project 04 - SQL Functions   -- Quiz 1 - MOD() + EXP() SELECT     MOD(Semester1, 2) AS sisa_semester1,     EXP(MarkGrowth) AS eksponensial_markgrowth FROM students;   -- Quiz 2 - UPPER() + LOWER() SELECT     UPPER(FirstName) AS FirstName,     LOWER(LastName) AS LastName FROM students;   -- Quiz 3 - MIN() + MAX() SELECT     MIN(Semester1) AS min_semester1,     MAX(Semester1) AS max_semester1,     MIN(Semester2) AS min_semester2,     MAX(Semester2) AS max_semester2 FROM students;
+-- Project 04 - SQL Functions
+
+
+-- Quiz 1 - MOD() + EXP()
+SELECT
+    MOD(Semester1, 2) AS sisa_semester1,
+    EXP(MarkGrowth) AS eksponensial_markgrowth
+FROM students;
+
+
+-- Quiz 2 - UPPER() + LOWER()
+SELECT
+    UPPER(FirstName) AS FirstName,
+    LOWER(LastName) AS LastName
+FROM students;
+
+
+-- Quiz 3 - MIN() + MAX()
+SELECT
+    MIN(Semester1) AS min_semester1,
+    MAX(Semester1) AS max_semester1,
+    MIN(Semester2) AS min_semester2,
+    MAX(Semester2) AS max_semester2
+FROM students;
