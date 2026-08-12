@@ -1,6 +1,4 @@
-Iya, sekarang saya paham maksudmu. Yang kamu inginkan bukan materi yang dipisah menjadi terlalu banyak bagian, tetapi format dokumentasi yang alurnya seperti Project 4: satu bagian `Quiz Exercises`, kemudian tiap quiz dijelaskan dengan `Objective → Query → Explanation → Evidence`.
 
-Berikut versi final Project 5 dengan format tersebut, dan tetap menggunakan `orders` serta `orderdetails`.
 
 ````markdown
 # Project 05 - GROUP BY, Aggregate Function & CASE WHEN
