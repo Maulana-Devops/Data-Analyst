@@ -111,7 +111,7 @@ Key points of execution:
 * The combined result reflects all purchases made by customer `polibest03` across both transaction sources.
 
 ### Evidence
-
+![Quiz 2](image/quiz-1.png)
 ---
 
 ## Quiz 2 - Combining Subqueries (UNION) with INNER JOIN
@@ -154,7 +154,7 @@ This query integrates a derived table subquery created by `UNION` with an `INNER
 4. `DISTINCT` ensures each customer is listed only once regardless of how many times they purchased the items.
 
 ### Evidence
-
+![Quiz 2](image/quiz-2.png)
 ---
 
 ## Quiz 3 - Conditional UNION Across Product Catalogs
@@ -199,7 +199,7 @@ The query creates a combined catalog by enforcing strict schema alignment:
 * `UNION` combines both result sets into a single continuous catalog.
 
 ### Evidence
-
+![Quiz 2](image/quiz-3.png)
 ---
 
 # 5. SQL Concepts Practiced
