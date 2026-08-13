@@ -1,0 +1,187 @@
+# ============================================
+# PROJECT 08 - CLEAN & TRANSFORM DATA
+# ============================================
+
+import pandas as pd
+import os
+
+# ============================================
+# 1. DAFTAR FILE HASIL CLEANING
+# ============================================
+
+files = {
+    "Customer": "customer_clean.csv",
+    "Invoice": "invoice_clean.csv",
+    "Payment": "payment_clean.csv",
+    "Product": "product_clean.csv",
+    "Subscription": "subscription_clean.csv"
+}
+
+print("=" * 60)
+print("PROJECT 08 - CHECK HASIL CLEANING")
+print("=" * 60)
+
+# ============================================
+# 2. CEK FILE
+# ============================================
+
+for name, file in files.items():
+    if os.path.exists(file):
+        print(f"✅ {name:<15} : {file}")
+    else:
+        print(f"❌ {name:<15} : {file} TIDAK DITEMUKAN")
+
+# ============================================
+# 3. LOAD SEMUA DATASET
+# ============================================
+
+df_customer = pd.read_csv("customer_clean.csv")
+df_invoice = pd.read_csv("invoice_clean.csv")
+df_payment = pd.read_csv("payment_clean.csv")
+df_product = pd.read_csv("product_clean.csv")
+df_subscription = pd.read_csv("subscription_clean.csv")
+
+# ============================================
+# 4. TAMPILKAN UKURAN DATA
+# ============================================
+
+print("\n" + "=" * 60)
+print("JUMLAH DATA")
+print("=" * 60)
+
+print(f"Customer      : {len(df_customer)} data")
+print(f"Invoice       : {len(df_invoice)} data")
+print(f"Payment       : {len(df_payment)} data")
+print(f"Product       : {len(df_product)} data")
+print(f"Subscription  : {len(df_subscription)} data")
+
+# ============================================
+# 5. TAMPILKAN STRUKTUR KOLOM
+# ============================================
+
+print("\n" + "=" * 60)
+print("STRUKTUR KOLOM")
+print("=" * 60)
+
+for name, df in {
+    "Customer": df_customer,
+    "Invoice": df_invoice,
+    "Payment": df_payment,
+    "Product": df_product,
+    "Subscription": df_subscription
+}.items():
+
+    print(f"\n{name}")
+    print("-" * 30)
+
+    for i, column in enumerate(df.columns, start=1):
+        print(f"{i}. {column}")
+
+# ============================================
+# 6. VALIDASI NAMA & NIS
+# ============================================
+
+print("\n" + "=" * 60)
+print("VALIDASI IDENTITAS")
+print("=" * 60)
+
+datasets = {
+    "Customer": df_customer,
+    "Invoice": df_invoice,
+    "Payment": df_payment,
+    "Product": df_product,
+    "Subscription": df_subscription
+}
+
+for name, df in datasets.items():
+
+    nama_valid = (
+        "nama" in df.columns
+        and df["nama"].eq("Maulana Aldi Pradana").all()
+    )
+
+    nis_valid = (
+        "nis" in df.columns
+        and df["nis"].astype(str).eq("24.012459").all()
+    )
+
+    print(
+        f"{name:<15} : "
+        f"Nama {'✅' if nama_valid else '❌'} | "
+        f"NIS {'✅' if nis_valid else '❌'}"
+    )
+
+# ============================================
+# 7. VALIDASI MISSING VALUE
+# ============================================
+
+print("\n" + "=" * 60)
+print("MISSING VALUE")
+print("=" * 60)
+
+for name, df in datasets.items():
+
+    total_missing = df.isnull().sum().sum()
+
+    print(
+        f"{name:<15} : "
+        f"{total_missing} missing value"
+    )
+
+# ============================================
+# 8. VALIDASI DUPLICATE
+# ============================================
+
+print("\n" + "=" * 60)
+print("DUPLICATE DATA")
+print("=" * 60)
+
+for name, df in datasets.items():
+
+    duplicate = df.duplicated().sum()
+
+    print(
+        f"{name:<15} : "
+        f"{duplicate} duplicate row"
+    )
+
+# ============================================
+# 9. PREVIEW SEMUA DATASET
+# ============================================
+
+print("\n" + "=" * 60)
+print("PREVIEW DATA")
+print("=" * 60)
+
+print("\nCUSTOMER")
+display(df_customer.head())
+
+print("\nINVOICE")
+display(df_invoice.head())
+
+print("\nPAYMENT")
+display(df_payment.head())
+
+print("\nPRODUCT")
+display(df_product.head())
+
+print("\nSUBSCRIPTION")
+display(df_subscription.head())
+
+# ============================================
+# 10. KESIMPULAN
+# ============================================
+
+print("\n" + "=" * 60)
+print("PROJECT 08 SELESAI")
+print("=" * 60)
+
+print("""
+Kelima dataset telah:
+1. Dibaca menggunakan Pandas
+2. Dibersihkan
+3. Ditambahkan nama dan NIS
+4. Divalidasi
+5. Disimpan dalam format CSV
+6. Siap digunakan untuk proses import ke MySQL
+""")
