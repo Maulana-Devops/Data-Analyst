@@ -1,0 +1,641 @@
+product_categories,Revenue,Orders,Quantity,Returned_Quantity,Cancelled_Orders,AOV,Revenue_Share
+Aksesoris ID Card,3167713,55,393.0,6,11,57594.781818181815,0.3292526759616362
+"Aksesoris ID Card, Aksesoris Pintu",132765,2,15.0,0,0,66382.5,0.013799618691480773
+"Aksesoris ID Card, Aksesoris Pintu, Botol / Gelas / Mug, Peralatan Makan, Sapu / Pembersih Lantai",65000,1,9.0,0,0,65000.0,0.0067561120396659536
+"Aksesoris ID Card, Bangku / Kursi Kecil, Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Peralatan Makan, Perlengkapan Packing, Plastik / Wadah Plastik, Saringan / Strainer, Talenan, Toples / Sealware",0,1,22.0,0,1,0.0,0.0
+"Aksesoris ID Card, Keranjang, Nampan / Tray, Other, Toples / Sealware",0,1,10.0,0,1,0.0,0.0
+"Aksesoris ID Card, Other, Sapu / Pembersih Lantai, Teko / Jug",68200,1,4.0,0,0,68200.0,0.00708872063238797
+"Aksesoris ID Card, Pisau / Alat Potong",25308,1,3.0,0,0,25308.0,0.0026305182076902453
+"Aksesoris ID Card, Teko / Jug",122500,1,2.0,0,0,122500.0,0.01273267269013968
+Aksesoris Mandi,923799,16,261.0,0,3,57737.4375,0.09601983917125181
+"Aksesoris Mandi, Aksesoris Pintu",24637,1,4.0,0,0,24637.0,0.002560774343403847
+"Aksesoris Mandi, Aksesoris Pintu, Keranjang",38856,1,5.0,0,0,38856.0,0.004038699837127081
+"Aksesoris Mandi, Aksesoris Pintu, Plastik / Wadah Plastik",23880,1,5.0,0,0,23880.0,0.0024820916231880455
+"Aksesoris Mandi, Baskom / Mangkok Besar, Spatula",43120,1,3.0,0,0,43120.0,0.004481900786929168
+"Aksesoris Mandi, Botol / Gelas / Mug",14520,1,2.0,0,0,14520.0,0.0015092114894761483
+"Aksesoris Mandi, Botol / Gelas / Mug, Celengan, Gantungan Baju / Hanger, Gayung",0,1,8.0,0,1,0.0,0.0
+"Aksesoris Mandi, Botol / Gelas / Mug, Celengan, Gayung, Mangkok",0,1,9.0,0,1,0.0,0.0
+"Aksesoris Mandi, Botol / Gelas / Mug, Gantungan Baju / Hanger, Keranjang, Other, Peralatan Kamar Mandi, Pisau / Alat Potong, Sapu / Pembersih Lantai, Teko / Jug",83831,1,11.0,2,0,83831.0,0.008713409667649793
+"Aksesoris Mandi, Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Kamar Mandi",123200,1,11.0,0,0,123200.0,0.01280543081979762
+"Aksesoris Mandi, Celengan",201292,6,15.0,0,1,33548.666666666664,0.020922327764437525
+"Aksesoris Mandi, Celengan, Keranjang",92800,1,6.0,0,0,92800.0,0.009645649188938468
+"Aksesoris Mandi, Celengan, Mangkok Sambal / Saus, Other",68900,1,5.0,0,0,68900.0,0.00716147876204591
+"Aksesoris Mandi, Celengan, Peralatan Kamar Mandi, Sapu / Pembersih Lantai",35382,1,4.0,1,0,35382.0,0.003677611633653242
+"Aksesoris Mandi, Celengan, Rak / Rak Serbaguna",48400,1,3.0,0,0,48400.0,0.005030704964920494
+"Aksesoris Mandi, Celengan, Sikat / Pembersih",124100,1,8.0,0,0,124100.0,0.012898976986500688
+"Aksesoris Mandi, Celengan, Spatula, Toples / Sealware",58700,1,4.0,0,0,58700.0,0.006101288872744484
+"Aksesoris Mandi, Celengan, Toples / Sealware",57365,1,6.0,0,0,57365.0,0.005962528725468267
+"Aksesoris Mandi, Gantungan Baju / Hanger, Keranjang",79695,1,5.0,0,0,79695.0,0.008283513061556587
+"Aksesoris Mandi, Keranjang",20250,1,2.0,0,0,20250.0,0.0021047887508190083
+"Aksesoris Mandi, Keranjang, Other, Perlengkapan Packing, Plastik / Wadah Plastik",30168,1,5.0,1,0,30168.0,0.0031356675078868072
+"Aksesoris Mandi, Keranjang, Peralatan Kamar Mandi, Perlengkapan Packing",53900,1,6.0,0,0,53900.0,0.005602375983661459
+"Aksesoris Mandi, Keranjang, Rak / Rak Serbaguna, Toples / Sealware",0,1,4.0,0,1,0.0,0.0
+"Aksesoris Mandi, Peralatan Kamar Mandi, Toples / Sealware",67620,2,8.0,0,0,33810.0,0.007028435324957104
+"Aksesoris Mandi, Peralatan Makan, Toples / Sealware",32714,1,3.0,0,0,32714.0,0.0034002992194712613
+"Aksesoris Mandi, Perlengkapan Packing, Tempat Nasi",31680,1,3.0,0,0,31680.0,0.0032928250679479594
+"Aksesoris Mandi, Sapu / Pembersih Lantai",41000,1,3.0,3,0,41000.0,0.004261547594250832
+"Aksesoris Mandi, Teko / Jug",30120,1,2.0,0,0,30120.0,0.003130678378995977
+Aksesoris Motor,114362,1,0.0,0,0,114362.0,0.011886807462773503
+Aksesoris Pintu,31341828,2365,3875.0,7,206,13252.358562367865,3.2576754076298378
+"Aksesoris Pintu, Bangku / Kursi Kecil",47400,2,5.0,0,0,23700.0,0.0049267647796948635
+"Aksesoris Pintu, Bangku / Kursi Kecil, Celengan, Keranjang",102900,1,7.0,0,0,102900.0,0.010695445059717331
+"Aksesoris Pintu, Bangku / Kursi Kecil, Celengan, Peralatan Kamar Mandi, Perkakas, Sapu / Pembersih Lantai",111211,1,6.0,0,0,111211.0,0.011559291939127542
+"Aksesoris Pintu, Bangku / Kursi Kecil, Saringan / Strainer",37720,1,3.0,0,0,37720.0,0.003920623786710766
+"Aksesoris Pintu, Baskom / Mangkok Besar",137097,3,10.0,0,0,45699.0,0.014249887573878201
+"Aksesoris Pintu, Baskom / Mangkok Besar, Keranjang",51500,1,5.0,0,0,51500.0,0.005352919539119947
+"Aksesoris Pintu, Baskom / Mangkok Besar, Other",125797,1,7.0,0,0,125797.0,0.013075363480828583
+"Aksesoris Pintu, Botol / Gelas / Mug",212132,12,34.0,0,3,17677.666666666668,0.022049039372283353
+"Aksesoris Pintu, Botol / Gelas / Mug, Gayung",100901,3,20.0,1,1,33633.666666666664,0.010487668629451297
+"Aksesoris Pintu, Botol / Gelas / Mug, Lunch Box / Rantang",25232,1,3.0,0,0,25232.0,0.002622618753613097
+"Aksesoris Pintu, Botol / Gelas / Mug, Nampan / Tray",25544,1,5.0,0,0,25544.0,0.002655048091403494
+"Aksesoris Pintu, Botol / Gelas / Mug, Other",50114,2,7.0,0,0,25057.0,0.005208858442397224
+"Aksesoris Pintu, Botol / Gelas / Mug, Other, Pisau / Alat Potong, Saringan / Strainer",54000,1,5.0,0,0,54000.0,0.0056127700021840225
+"Aksesoris Pintu, Botol / Gelas / Mug, Rak / Rak Serbaguna",55080,1,4.0,0,0,55080.0,0.0057250254022277024
+"Aksesoris Pintu, Botol / Gelas / Mug, Sapu / Pembersih Lantai",33800,1,0.0,0,0,33800.0,0.0035131782606262958
+"Aksesoris Pintu, Botol / Gelas / Mug, Saringan / Strainer",56000,1,6.0,0,0,56000.0,0.005820650372635282
+"Aksesoris Pintu, Botol / Gelas / Mug, Seal / Baut / Roof",0,1,6.0,0,1,0.0,0.0
+"Aksesoris Pintu, Celengan",244500,9,25.0,0,1,27166.666666666668,0.025413375287666545
+"Aksesoris Pintu, Celengan, Keranjang",39000,1,3.0,0,0,39000.0,0.004053667223799571
+"Aksesoris Pintu, Celengan, Mangkok, Other, Saringan / Strainer",86639,1,8.0,0,0,86639.0,0.009005273707763361
+"Aksesoris Pintu, Celengan, Perlengkapan Packing",28900,1,4.0,0,0,28900.0,0.003003871353020708
+"Aksesoris Pintu, Gantungan Baju / Hanger",202545,9,32.0,1,2,22505.0,0.02105256481652524
+"Aksesoris Pintu, Gantungan Baju / Hanger, Gayung, Keranjang, Pisau / Alat Potong",71955,1,6.0,0,0,71955.0,0.00747901602791021
+"Aksesoris Pintu, Gantungan Baju / Hanger, Keranjang",54631,1,3.0,0,0,54631.0,0.005678356259061395
+"Aksesoris Pintu, Gantungan Baju / Hanger, Other",91395,1,7.0,0,0,91395.0,0.009499613228696458
+"Aksesoris Pintu, Gantungan Baju / Hanger, Other, Toples / Sealware",110700,1,7.0,3,0,110700.0,0.011506178504477247
+"Aksesoris Pintu, Gayung",38428,2,4.0,0,0,19214.0,0.003994213437850511
+"Aksesoris Pintu, Gayung, Sikat / Pembersih",76865,2,8.0,0,0,38432.5,0.007989362337368053
+"Aksesoris Pintu, Keranjang",236401,10,30.0,0,1,23640.1,0.024571563727524167
+"Aksesoris Pintu, Keranjang, Mangkok, Other, Peralatan Kamar Mandi, Peralatan Makan",40000,1,6.0,0,0,40000.0,0.0041576074090252015
+"Aksesoris Pintu, Keranjang, Other",32310,1,3.0,0,0,32310.0,0.0033583073846401067
+"Aksesoris Pintu, Keranjang, Other, Peralatan Makan, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Spatula",100800,1,11.0,0,0,100800.0,0.010477170670743509
+"Aksesoris Pintu, Keranjang, Other, Pisau / Alat Potong",35191,1,6.0,2,0,35191.0,0.003657759058275147
+"Aksesoris Pintu, Keranjang, Pisau / Alat Potong",39900,1,7.0,0,0,39900.0,0.004147213390502639
+"Aksesoris Pintu, Keranjang, Sapu / Pembersih Lantai, Saringan / Strainer",64000,1,6.0,0,0,64000.0,0.0066521718544403224
+"Aksesoris Pintu, Lunch Box / Rantang",21579,1,2.0,0,0,21579.0,0.0022429252569838706
+"Aksesoris Pintu, Mangkok",39000,2,6.0,0,0,19500.0,0.004053667223799571
+"Aksesoris Pintu, Mangkok Sambal / Saus",186000,3,15.0,0,0,62000.0,0.019332874451967186
+"Aksesoris Pintu, Mangkok Sambal / Saus, Nampan / Tray, Other",67000,1,8.0,0,0,67000.0,0.006963992410117213
+"Aksesoris Pintu, Mangkok Sambal / Saus, Peralatan Kamar Mandi, Plastik / Wadah Plastik",112060,1,10.0,0,0,112060.0,0.011647537156384103
+"Aksesoris Pintu, Mangkok Sambal / Saus, Pisau / Alat Potong",28400,1,3.0,0,0,28400.0,0.0029519012604078934
+"Aksesoris Pintu, Mangkok, Peralatan Kamar Mandi",40000,1,8.0,0,0,40000.0,0.0041576074090252015
+"Aksesoris Pintu, Mangkok, Piring, Sikat / Pembersih, Toples / Sealware",76000,1,8.0,0,0,76000.0,0.007899454077147884
+"Aksesoris Pintu, Mangkok, Pisau / Alat Potong",22611,1,3.0,0,0,22611.0,0.0023501915281367207
+"Aksesoris Pintu, Nampan / Tray",196471,7,27.0,0,0,28067.285714285714,0.02042123213146476
+"Aksesoris Pintu, Nampan / Tray, Other, Peralatan Kamar Mandi",0,1,0.0,0,1,0.0,0.0
+"Aksesoris Pintu, Nampan / Tray, Other, Peralatan Makan, Pisau / Alat Potong, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Sapu / Pembersih Lantai",169200,1,8.0,0,0,169200.0,0.017586679340176603
+"Aksesoris Pintu, Nampan / Tray, Sapu / Pembersih Lantai, Saringan / Strainer",40500,1,5.0,0,0,40500.0,0.004209577501638017
+"Aksesoris Pintu, Other",433193,21,55.0,0,2,20628.238095238095,0.045026160658446356
+"Aksesoris Pintu, Other, Peralatan Kamar Mandi",0,2,12.0,0,2,0.0,0.0
+"Aksesoris Pintu, Other, Peralatan Makan",32200,1,4.0,0,0,32200.0,0.0033468739642652876
+"Aksesoris Pintu, Other, Perkakas",45500,1,3.0,0,0,45500.0,0.004729278427766167
+"Aksesoris Pintu, Other, Perlengkapan Packing, Sapu / Pembersih Lantai, Spatula",37400,1,6.0,0,0,37400.0,0.0038873629274385636
+"Aksesoris Pintu, Other, Sapu / Pembersih Lantai",37500,1,3.0,0,0,37500.0,0.0038977569459611263
+"Aksesoris Pintu, Other, Saringan / Strainer",12896,1,3.0,0,0,12896.0,0.001340412628669725
+"Aksesoris Pintu, Other, Seal / Baut / Roof",46400,1,5.0,0,0,46400.0,0.004822824594469234
+"Aksesoris Pintu, Other, Talenan",79500,1,7.0,0,0,79500.0,0.008263244725437588
+"Aksesoris Pintu, Other, Toples / Sealware",23800,1,4.0,0,0,23800.0,0.002473776408369995
+"Aksesoris Pintu, Pengolah Bumbu / Sayur",57333,2,4.0,0,0,28666.5,0.005959202639541048
+"Aksesoris Pintu, Peralatan Kamar Mandi",143751,6,14.0,0,0,23958.5,0.014941505566369544
+"Aksesoris Pintu, Peralatan Kamar Mandi, Peralatan Makan, Pisau / Alat Potong",34300,2,8.0,0,1,17150.0,0.0035651483532391105
+"Aksesoris Pintu, Peralatan Kamar Mandi, Plastik / Wadah Plastik, Sikat / Pembersih",15870,1,4.0,0,0,15870.0,0.0016495307395307489
+"Aksesoris Pintu, Peralatan Makan",66197,4,9.0,0,1,16549.25,0.006880528441381032
+"Aksesoris Pintu, Peralatan Makan, Perkakas",22513,1,3.0,0,0,22513.0,0.0023400053899846093
+"Aksesoris Pintu, Peralatan Makan, Sapu / Pembersih Lantai",0,1,4.0,0,1,0.0,0.0
+"Aksesoris Pintu, Peralatan Makan, Spatula",42500,1,3.0,0,0,42500.0,0.004417457872089277
+"Aksesoris Pintu, Perkakas",34500,1,3.0,0,0,34500.0,0.0035859363902842364
+"Aksesoris Pintu, Perlengkapan Packing",128778,6,21.0,0,1,21463.0,0.013385209172986186
+"Aksesoris Pintu, Pisau / Alat Potong",48360,2,5.0,0,0,24180.0,0.005026547357511469
+"Aksesoris Pintu, Pisau / Alat Potong, Plastik / Wadah Plastik",70657,2,7.0,0,0,35328.5,0.007344101667487341
+"Aksesoris Pintu, Pisau / Alat Potong, Toples / Sealware",15741,2,9.0,1,1,7870.5,0.0016361224556366426
+"Aksesoris Pintu, Plastik / Wadah Plastik",144494,8,27.0,2,0,18061.75,0.01501873312399219
+"Aksesoris Pintu, Sapu / Pembersih Lantai",130085,6,15.0,0,1,21680.833333333332,0.013521058995076085
+"Aksesoris Pintu, Saringan / Strainer, Talenan",54269,1,6.0,0,0,54269.0,0.0056407299120097175
+"Aksesoris Pintu, Seal / Baut / Roof",122500,3,15.0,0,1,40833.333333333336,0.01273267269013968
+"Aksesoris Pintu, Sikat / Pembersih",122572,6,17.0,0,0,20428.666666666668,0.012740156383475925
+"Aksesoris Pintu, Spatula",159392,6,15.0,0,0,26565.333333333332,0.016567234003483623
+"Aksesoris Pintu, Teko / Jug",39679,2,12.0,2,1,19839.5,0.004124242609567775
+"Aksesoris Pintu, Toples / Sealware",77164,5,13.0,1,1,15432.8,0.008020440452750516
+Bangku / Kursi Kecil,2508324,105,114.0,0,11,23888.8,0.26071566116589323
+"Bangku / Kursi Kecil, Baskom / Mangkok Besar, Plastik / Wadah Plastik",144000,1,4.0,0,0,144000.0,0.014967386672490727
+"Bangku / Kursi Kecil, Botol / Gelas / Mug",20987,1,2.0,1,0,20987.0,0.0021813926673302977
+"Bangku / Kursi Kecil, Botol / Gelas / Mug, Nampan / Tray, Peralatan Makan, Perlengkapan Packing, Plastik / Wadah Plastik, Saringan / Strainer, Talenan, Toples / Sealware",0,1,18.0,0,1,0.0,0.0
+"Bangku / Kursi Kecil, Botol / Gelas / Mug, Other, Piring, Pisau / Alat Potong",176490,1,11.0,0,0,176490.0,0.018344403290471448
+"Bangku / Kursi Kecil, Botol / Gelas / Mug, Plastik / Wadah Plastik",46675,1,4.0,0,0,46675.0,0.004851408145406282
+"Bangku / Kursi Kecil, Celengan",253622,6,14.0,0,1,42270.333333333336,0.026361517657294744
+"Bangku / Kursi Kecil, Celengan, Peralatan Kamar Mandi, Perlengkapan Packing",51385,2,8.0,0,1,25692.5,0.005340966417819
+"Bangku / Kursi Kecil, Celengan, Peralatan Makan, Rak / Rak Serbaguna",107800,1,4.0,0,0,107800.0,0.011204751967322919
+"Bangku / Kursi Kecil, Celengan, Perlengkapan Packing",61398,1,4.0,0,0,61398.0,0.006381719492483234
+"Bangku / Kursi Kecil, Celengan, Pisau / Alat Potong, Spatula",113800,1,5.0,0,0,113800.0,0.011828393078676698
+"Bangku / Kursi Kecil, Celengan, Sapu / Pembersih Lantai",99300,1,5.0,0,0,99300.0,0.010321260392905063
+"Bangku / Kursi Kecil, Cobek / Ulekan, Rak / Rak Serbaguna",175710,1,3.0,0,0,175710.0,0.018263329945995454
+"Bangku / Kursi Kecil, Gantungan Baju / Hanger",93395,1,2.0,0,0,93395.0,0.009707493599147719
+"Bangku / Kursi Kecil, Keranjang, Other, Rak / Rak Serbaguna",169545,1,4.0,0,0,169545.0,0.017622538704079444
+"Bangku / Kursi Kecil, Keranjang, Peralatan Makan",44073,1,3.0,0,0,44073.0,0.004580955783449193
+"Bangku / Kursi Kecil, Keranjang, Sapu / Pembersih Lantai, Tempat Nasi",0,1,4.0,0,1,0.0,0.0
+"Bangku / Kursi Kecil, Keranjang, Saringan / Strainer",47941,1,3.0,0,0,47941.0,0.00498299641990193
+"Bangku / Kursi Kecil, Lunch Box / Rantang",54175,2,4.0,0,0,27087.5,0.0056309595345985074
+"Bangku / Kursi Kecil, Mangkok Sambal / Saus",36900,1,2.0,0,0,36900.0,0.0038353928348257484
+"Bangku / Kursi Kecil, Nampan / Tray",34256,2,4.0,0,1,17128.0,0.003560574985089183
+"Bangku / Kursi Kecil, Nampan / Tray, Perlengkapan Packing, Saringan / Strainer, Talenan",103147,1,8.0,0,0,103147.0,0.010721118285468062
+"Bangku / Kursi Kecil, Nampan / Tray, Pisau / Alat Potong",94422,1,3.0,1,0,94422.0,0.00981424016937444
+"Bangku / Kursi Kecil, Nampan / Tray, Tempat Nasi",39132,1,3.0,0,0,39132.0,0.004067387328249355
+"Bangku / Kursi Kecil, Other",29578,1,0.0,0,0,29578.0,0.0030743427986036857
+"Bangku / Kursi Kecil, Peralatan Kamar Mandi",28180,1,2.0,0,0,28180.0,0.002929034419658255
+"Bangku / Kursi Kecil, Peralatan Makan, Saringan / Strainer",43298,1,4.0,1,0,43298.0,0.00450040213989933
+"Bangku / Kursi Kecil, Perlengkapan Packing, Spatula",33739,1,4.0,3,0,33739.0,0.003506837909327532
+"Bangku / Kursi Kecil, Sapu / Pembersih Lantai",62849,2,4.0,0,0,31424.5,0.006532536701245623
+"Bangku / Kursi Kecil, Seal / Baut / Roof",0,1,2.0,0,1,0.0,0.0
+Baskom / Mangkok Besar,32210334,536,1367.0,16,92,60093.90671641791,3.347948082139409
+"Baskom / Mangkok Besar, Botol / Gelas / Mug",94481,2,2.0,0,0,47240.5,0.009820372640302753
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Keranjang, Other, Pengolah Bumbu / Sayur, Pisau / Alat Potong",0,1,8.0,0,1,0.0,0.0
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Nampan / Tray",39400,1,3.0,0,0,39400.0,0.004095243297889823
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Nampan / Tray, Perlengkapan Packing",39200,1,5.0,0,0,39200.0,0.004074455260844698
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Other",262379,2,17.0,0,0,131189.5,0.027271721859315586
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Other, Pengolah Bumbu / Sayur, Pisau / Alat Potong",246020,1,8.0,0,0,246020.0,0.025571364369209502
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Other, Piring, Saringan / Strainer",144198,1,8.0,0,0,144198.0,0.014987966829165401
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Other, Saringan / Strainer",76900,1,5.0,0,0,76900.0,0.00799300024385095
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Peralatan Makan",32756,1,3.0,0,0,32756.0,0.003404664707250738
+"Baskom / Mangkok Besar, Botol / Gelas / Mug, Peralatan Makan, Spatula",235429,1,25.0,0,0,235429.0,0.024470533867484854
+"Baskom / Mangkok Besar, Celengan",342142,7,17.0,0,1,48877.42857142857,0.03556230285346751
+"Baskom / Mangkok Besar, Celengan, Cobek / Ulekan, Keranjang, Other, Perlengkapan Packing, Sikat / Pembersih",93533,1,8.0,0,0,93533.0,0.009721837344708856
+"Baskom / Mangkok Besar, Celengan, Nampan / Tray",0,1,3.0,0,1,0.0,0.0
+"Baskom / Mangkok Besar, Celengan, Other",42208,1,4.0,0,0,42208.0,0.004387107338003393
+"Baskom / Mangkok Besar, Celengan, Other, Perlengkapan Packing",71800,1,6.0,0,0,71800.0,0.007462905299200236
+"Baskom / Mangkok Besar, Celengan, Other, Sikat / Pembersih",63400,1,5.0,0,0,63400.0,0.006589807743304945
+"Baskom / Mangkok Besar, Celengan, Other, Teko / Jug",138102,1,5.0,0,0,138102.0,0.014354347460029959
+"Baskom / Mangkok Besar, Celengan, Saringan / Strainer, Sikat / Pembersih",52600,1,5.0,0,0,52600.0,0.00546725374286814
+"Baskom / Mangkok Besar, Cobek / Ulekan, Keranjang, Pisau / Alat Potong, Saringan / Strainer",141912,1,6.0,0,0,141912.0,0.01475035956573961
+"Baskom / Mangkok Besar, Cobek / Ulekan, Other, Pengolah Bumbu / Sayur",244567,1,4.0,0,0,244567.0,0.025420339280076663
+"Baskom / Mangkok Besar, Cobek / Ulekan, Other, Perlengkapan Packing, Piring, Pisau / Alat Potong, Saringan / Strainer, Talenan",206000,1,12.0,0,0,206000.0,0.021411678156479787
+"Baskom / Mangkok Besar, Gantungan Baju / Hanger, Lunch Box / Rantang, Pisau / Alat Potong, Plastik / Wadah Plastik, Tempat Nasi",72656,1,6.0,0,0,72656.0,0.007551878097753376
+"Baskom / Mangkok Besar, Gantungan Baju / Hanger, Nampan / Tray",52387,1,3.0,0,0,52387.0,0.0054451144834150806
+"Baskom / Mangkok Besar, Gantungan Baju / Hanger, Other, Peralatan Makan, Spatula, Talenan, Toples / Sealware",241846,1,10.0,0,0,241846.0,0.02513751803607772
+"Baskom / Mangkok Besar, Gantungan Baju / Hanger, Other, Saringan / Strainer",89686,1,5.0,0,0,89686.0,0.009321979452145855
+"Baskom / Mangkok Besar, Gayung",39500,1,3.0,0,0,39500.0,0.004105637316412387
+"Baskom / Mangkok Besar, Gayung, Other",138905,1,4.0,0,0,138905.0,0.01443781142876614
+"Baskom / Mangkok Besar, Keranjang",165425,4,12.0,4,1,41356.25,0.01719430514094985
+"Baskom / Mangkok Besar, Keranjang, Mangkok Sambal / Saus, Peralatan Makan, Plastik / Wadah Plastik",138020,2,16.0,0,0,69010.0,0.014345824364841457
+"Baskom / Mangkok Besar, Keranjang, Other",37700,1,4.0,0,0,37700.0,0.003918544983006252
+"Baskom / Mangkok Besar, Keranjang, Plastik / Wadah Plastik",83000,1,4.0,0,0,83000.0,0.008627035373727294
+"Baskom / Mangkok Besar, Lunch Box / Rantang",0,1,2.0,0,1,0.0,0.0
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus",246641,7,26.0,0,2,35234.42857142857,0.025635911224234618
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Nampan / Tray, Other",82715,1,10.0,0,0,82715.0,0.00859741242093799
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other",307024,3,15.0,0,0,102341.33333333333,0.03191213142871384
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other, Perlengkapan Packing, Sapu / Pembersih Lantai, Tempat Nasi, Toples / Sealware",153207,1,10.0,0,0,153207.0,0.015924363957863102
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other, Pisau / Alat Potong, Saringan / Strainer, Sikat / Pembersih, Toples / Sealware",145300,1,15.0,0,0,145300.0,0.015102508913284046
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other, Rak / Rak Serbaguna",152840,1,10.0,0,0,152840.0,0.015886217909885293
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other, Talenan",108536,1,7.0,0,0,108536.0,0.011281251943648983
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Other, Teko / Jug",695294,1,10.0,0,0,695294.0,0.07226898714626921
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Piring, Tempat Nasi",79275,1,5.0,0,0,79275.0,0.008239858183761821
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Plastik / Wadah Plastik",30780,2,10.0,0,1,15390.0,0.0031992789012448924
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Saringan / Strainer, Teko / Jug",83987,1,5.0,1,0,83987.0,0.00872962433654499
+"Baskom / Mangkok Besar, Mangkok Sambal / Saus, Sikat / Pembersih",31749,1,5.0,0,0,31749.0,0.003299996940728528
+"Baskom / Mangkok Besar, Mangkok, Nampan / Tray, Other, Rak / Rak Serbaguna, Saringan / Strainer, Tempat Nasi",0,1,9.0,0,1,0.0,0.0
+"Baskom / Mangkok Besar, Mangkok, Piring, Pisau / Alat Potong, Spatula",38400,1,6.0,0,0,38400.0,0.003991303112664194
+"Baskom / Mangkok Besar, Nampan / Tray",857089,10,61.0,0,2,85708.9,0.08908598941485003
+"Baskom / Mangkok Besar, Nampan / Tray, Other",145941,1,6.0,0,0,145941.0,0.015169134572013673
+"Baskom / Mangkok Besar, Nampan / Tray, Other, Peralatan Makan, Rak / Rak Serbaguna, Saringan / Strainer, Teko / Jug",164000,1,14.0,0,0,164000.0,0.017046190377003327
+"Baskom / Mangkok Besar, Nampan / Tray, Other, Pisau / Alat Potong, Saringan / Strainer",47500,1,5.0,0,0,47500.0,0.004937158798217428
+"Baskom / Mangkok Besar, Nampan / Tray, Peralatan Makan, Tempat Nasi",105115,1,9.0,3,0,105115.0,0.010925672569992103
+"Baskom / Mangkok Besar, Nampan / Tray, Perlengkapan Packing",30997,1,4.0,0,0,30997.0,0.003221833921438854
+"Baskom / Mangkok Besar, Nampan / Tray, Perlengkapan Packing, Piring",252758,1,15.0,0,0,252758.0,0.0262717133372598
+"Baskom / Mangkok Besar, Nampan / Tray, Piring",70346,1,8.0,0,0,70346.0,0.007311776269882171
+"Baskom / Mangkok Besar, Nampan / Tray, Sapu / Pembersih Lantai, Saringan / Strainer",214520,1,7.0,0,0,214520.0,0.022297248534602156
+"Baskom / Mangkok Besar, Nampan / Tray, Saringan / Strainer",340966,1,17.0,0,0,340966.0,0.035440069195642174
+"Baskom / Mangkok Besar, Nampan / Tray, Spatula",54000,2,9.0,1,1,27000.0,0.0056127700021840225
+"Baskom / Mangkok Besar, Other",980136,13,45.0,0,2,75395.07692307692,0.10187551738630814
+"Baskom / Mangkok Besar, Other, Peralatan Makan",135780,2,16.0,0,1,67890.0,0.014112998349936047
+"Baskom / Mangkok Besar, Other, Peralatan Makan, Pisau / Alat Potong",0,1,6.0,0,1,0.0,0.0
+"Baskom / Mangkok Besar, Other, Perlengkapan Packing, Piring, Pisau / Alat Potong, Saringan / Strainer",214000,1,11.0,0,0,214000.0,0.02224319963828483
+"Baskom / Mangkok Besar, Other, Perlengkapan Packing, Teko / Jug",813200,1,12.0,0,0,813200.0,0.08452415862548235
+"Baskom / Mangkok Besar, Other, Tempat Nasi",46121,1,3.0,0,0,46121.0,0.004793825282791283
+"Baskom / Mangkok Besar, Peralatan Kamar Mandi, Perlengkapan Packing",41040,1,4.0,0,0,41040.0,0.004265705201659857
+"Baskom / Mangkok Besar, Peralatan Makan",83200,2,2.0,0,0,41600.0,0.00864782341077242
+"Baskom / Mangkok Besar, Peralatan Makan, Rak / Rak Serbaguna, Tempat Nasi",265510,1,10.0,0,0,265510.0,0.027597158579257035
+"Baskom / Mangkok Besar, Peralatan Makan, Toples / Sealware",57081,1,4.0,0,0,57081.0,0.005933009712864188
+"Baskom / Mangkok Besar, Perlengkapan Packing",1807248,12,98.0,2,1,150604.0,0.18784569186864944
+"Baskom / Mangkok Besar, Perlengkapan Packing, Piring",83680,1,5.0,0,0,83680.0,0.008697714699680722
+"Baskom / Mangkok Besar, Perlengkapan Packing, Tempat Nasi",83680,1,4.0,0,0,83680.0,0.008697714699680722
+"Baskom / Mangkok Besar, Piring",495398,10,50.0,0,4,49539.8,0.05149175988040667
+"Baskom / Mangkok Besar, Pisau / Alat Potong",101726,2,5.0,0,0,50863.0,0.010573419282262441
+"Baskom / Mangkok Besar, Plastik / Wadah Plastik, Talenan",33448,1,4.0,0,0,33448.0,0.0034765913154268737
+"Baskom / Mangkok Besar, Saringan / Strainer",702541,8,28.0,1,1,87817.625,0.07302224166859936
+"Baskom / Mangkok Besar, Saringan / Strainer, Spatula",143890,1,3.0,0,0,143890.0,0.014955953252115907
+"Baskom / Mangkok Besar, Spatula",57000,1,2.0,0,0,57000.0,0.005924590557860912
+"Baskom / Mangkok Besar, Tempat Nasi",641879,8,27.0,0,0,80234.875,0.06671702215244218
+Botol / Gelas / Mug,4637239,224,750.0,6,42,20701.959821428572,0.48199548059551545
+"Botol / Gelas / Mug, Celengan",419516,10,33.0,0,0,41951.6,0.04360457074511541
+"Botol / Gelas / Mug, Celengan, Gantungan Baju / Hanger, Keranjang, Lunch Box / Rantang, Other, Sapu / Pembersih Lantai, Saringan / Strainer, Talenan, Tempat Nasi, Toples / Sealware",135572,1,13.0,0,0,135572.0,0.014091378791409117
+"Botol / Gelas / Mug, Celengan, Lunch Box / Rantang",267500,2,21.0,0,1,133750.0,0.027803999547856038
+"Botol / Gelas / Mug, Celengan, Mangkok Sambal / Saus, Rak / Rak Serbaguna",84056,1,7.0,1,0,84056.0,0.008736796209325558
+"Botol / Gelas / Mug, Celengan, Mangkok, Other, Pisau / Alat Potong",44576,1,6.0,0,0,44576.0,0.004633237696617685
+"Botol / Gelas / Mug, Celengan, Nampan / Tray",71900,1,6.0,0,0,71900.0,0.0074732993177228
+"Botol / Gelas / Mug, Celengan, Nampan / Tray, Tempat Nasi",93386,1,7.0,1,0,93386.0,0.009706558137480687
+"Botol / Gelas / Mug, Celengan, Other, Peralatan Makan",84363,1,4.0,0,0,84363.0,0.008768705846189828
+"Botol / Gelas / Mug, Celengan, Other, Peralatan Makan, Perlengkapan Packing, Spatula",82604,1,8.0,0,0,82604.0,0.008585875060377944
+"Botol / Gelas / Mug, Celengan, Peralatan Makan",98800,2,9.0,0,0,49400.0,0.01026929030029225
+"Botol / Gelas / Mug, Celengan, Perlengkapan Packing, Sapu / Pembersih Lantai",68800,1,5.0,0,0,68800.0,0.007151084743523347
+"Botol / Gelas / Mug, Celengan, Piring",40900,1,3.0,0,0,40900.0,0.004251153575728269
+"Botol / Gelas / Mug, Cobek / Ulekan, Mangkok Sambal / Saus, Other, Peralatan Makan, Plastik / Wadah Plastik, Tempat Nasi",590436,1,13.0,0,0,590436.0,0.0613700272038801
+"Botol / Gelas / Mug, Gantungan Baju / Hanger",35112,1,3.0,0,0,35112.0,0.0036495477836423224
+"Botol / Gelas / Mug, Gantungan Baju / Hanger, Saringan / Strainer",48000,2,6.0,0,1,24000.0,0.004989128890830242
+"Botol / Gelas / Mug, Keranjang",68920,3,9.0,0,0,22973.333333333332,0.007163557565750422
+"Botol / Gelas / Mug, Keranjang, Mangkok Sambal / Saus",44700,1,6.0,0,0,44700.0,0.004646126279585663
+"Botol / Gelas / Mug, Keranjang, Mangkok Sambal / Saus, Nampan / Tray, Other, Peralatan Makan",201306,1,18.0,0,0,201306.0,0.02092378292703068
+"Botol / Gelas / Mug, Keranjang, Mangkok Sambal / Saus, Peralatan Makan, Toples / Sealware",146808,1,19.0,0,0,146808.0,0.015259250712604295
+"Botol / Gelas / Mug, Keranjang, Plastik / Wadah Plastik",0,1,6.0,0,1,0.0,0.0
+"Botol / Gelas / Mug, Keranjang, Sikat / Pembersih",32500,1,4.0,0,0,32500.0,0.0033780560198329768
+"Botol / Gelas / Mug, Lunch Box / Rantang",55891,2,6.0,0,0,27945.5,0.005809320892445688
+"Botol / Gelas / Mug, Lunch Box / Rantang, Mangkok Sambal / Saus",89400,1,6.0,0,0,89400.0,0.009292252559171326
+"Botol / Gelas / Mug, Lunch Box / Rantang, Peralatan Kamar Mandi",45000,1,4.0,0,0,45000.0,0.004677308335153352
+"Botol / Gelas / Mug, Mangkok",15560,1,2.0,0,0,15560.0,0.0016173092821108034
+"Botol / Gelas / Mug, Mangkok Sambal / Saus",1083266,28,128.0,7,3,38688.07142857143,0.11259486868862736
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray",491641,6,40.0,0,0,81940.16666666667,0.051101256604513985
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Other",0,1,5.0,0,1,0.0,0.0
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Other, Saringan / Strainer, Spatula",78480,1,7.0,0,0,78480.0,0.008157225736507446
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Nampan / Tray, Peralatan Makan",109000,1,13.0,0,0,109000.0,0.011329480189593674
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other",318400,4,22.0,0,0,79600.0,0.0330945549758406
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Makan",81000,1,9.0,0,0,81000.0,0.008419155003276033
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Makan, Piring",385010,1,45.0,0,0,385010.0,0.040018010713719826
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",0,1,7.0,0,1,0.0,0.0
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Piring",75000,1,10.0,0,0,75000.0,0.007795513891922253
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Plastik / Wadah Plastik",69820,2,16.0,0,1,34910.0,0.007257103732453489
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Plastik / Wadah Plastik, Sapu / Pembersih Lantai",65500,1,9.0,0,0,65500.0,0.006808082132278768
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Other, Spatula",91886,2,11.0,1,1,45943.0,0.009550647859642242
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Peralatan Makan",85767,3,18.0,0,1,28589.0,0.008914637866246612
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Peralatan Makan, Tempat Nasi",94368,1,8.0,0,0,94368.0,0.009808627399372256
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Perlengkapan Packing",71000,1,6.0,0,0,71000.0,0.007379753151019733
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Plastik / Wadah Plastik",90363,2,11.0,1,0,45181.5,0.009392346957543608
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Sapu / Pembersih Lantai",66688,1,6.0,0,0,66688.0,0.006931563072326816
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Saringan / Strainer",94064,1,10.0,0,0,94064.0,0.009777029583063665
+"Botol / Gelas / Mug, Mangkok Sambal / Saus, Teko / Jug",199955,2,21.0,3,0,99977.5,0.020783359736790855
+"Botol / Gelas / Mug, Mangkok, Mangkok Sambal / Saus",99500,2,22.0,0,1,49750.0,0.01034204842995019
+"Botol / Gelas / Mug, Mangkok, Nampan / Tray",37572,2,17.0,0,1,18786.0,0.003905240639297372
+"Botol / Gelas / Mug, Mangkok, Peralatan Makan, Plastik / Wadah Plastik, Rak / Rak Serbaguna",272101,1,12.0,0,0,272101.0,0.028282228340079162
+"Botol / Gelas / Mug, Nampan / Tray",108140,1,2.0,0,0,108140.0,0.011240091630299633
+"Botol / Gelas / Mug, Nampan / Tray, Perlengkapan Packing",131806,1,5.0,0,0,131806.0,0.013699940053849393
+"Botol / Gelas / Mug, Nampan / Tray, Saringan / Strainer",63000,1,8.0,0,0,63000.0,0.006548231669214693
+"Botol / Gelas / Mug, Nampan / Tray, Toples / Sealware",65925,1,5.0,1,0,65925.0,0.006852256710999661
+"Botol / Gelas / Mug, Other",540183,6,48.0,0,2,90030.5,0.05614672107573652
+"Botol / Gelas / Mug, Other, Peralatan Makan, Rak / Rak Serbaguna, Saringan / Strainer, Spatula",142119,1,9.0,0,0,142119.0,0.014771875184081316
+"Botol / Gelas / Mug, Other, Perkakas",114000,1,6.0,0,0,114000.0,0.011849181115721825
+"Botol / Gelas / Mug, Other, Perlengkapan Packing, Sapu / Pembersih Lantai",129222,1,4.0,0,0,129222.0,0.013431358615226366
+"Botol / Gelas / Mug, Other, Pisau / Alat Potong",57000,1,7.0,0,0,57000.0,0.005924590557860912
+"Botol / Gelas / Mug, Other, Plastik / Wadah Plastik",39400,1,3.0,0,0,39400.0,0.004095243297889823
+"Botol / Gelas / Mug, Other, Plastik / Wadah Plastik, Spatula",28867,1,6.0,0,0,28867.0,0.0030004413269082626
+"Botol / Gelas / Mug, Peralatan Kamar Mandi",38000,1,2.0,0,0,38000.0,0.003949727038573942
+"Botol / Gelas / Mug, Peralatan Makan",250397,4,17.0,0,1,62599.25,0.026026310559942086
+"Botol / Gelas / Mug, Peralatan Makan, Pisau / Alat Potong, Talenan",54210,1,6.0,0,0,54210.0,0.005634597441081404
+"Botol / Gelas / Mug, Peralatan Makan, Rak / Rak Serbaguna",77200,1,6.0,0,0,77200.0,0.00802418229941864
+"Botol / Gelas / Mug, Peralatan Makan, Saringan / Strainer",40894,2,8.0,0,1,20447.0,0.004250529934616915
+"Botol / Gelas / Mug, Perlengkapan Packing, Piring, Toples / Sealware",44194,1,5.0,0,0,44194.0,0.004593532545861494
+"Botol / Gelas / Mug, Perlengkapan Packing, Rak / Rak Serbaguna",38800,1,3.0,0,0,38800.0,0.004032879186754446
+"Botol / Gelas / Mug, Perlengkapan Packing, Teko / Jug",42288,1,3.0,0,0,42288.0,0.004395422552821443
+"Botol / Gelas / Mug, Piring",17700,1,2.0,0,0,17700.0,0.001839741278493652
+"Botol / Gelas / Mug, Pisau / Alat Potong",117480,1,3.0,0,0,117480.0,0.012210892960307017
+"Botol / Gelas / Mug, Plastik / Wadah Plastik",116343,1,15.0,0,0,116343.0,0.012092712969705476
+"Botol / Gelas / Mug, Saringan / Strainer",35000,1,5.0,0,0,35000.0,0.003637906482897051
+"Botol / Gelas / Mug, Saringan / Strainer, Seal / Baut / Roof",130279,1,9.0,0,0,130279.0,0.013541223391009858
+"Botol / Gelas / Mug, Stempel / Alat Kantor",112808,3,7.0,0,0,37602.666666666664,0.011725284414932874
+"Botol / Gelas / Mug, Teko / Jug",49360,1,4.0,0,0,49360.0,0.005130487542737099
+"Botol / Gelas / Mug, Tempat Nasi",90824,1,13.0,0,0,90824.0,0.009440263382932624
+"Botol / Gelas / Mug, Toples / Sealware",95915,1,5.0,0,0,95915.0,0.009969422865916306
+Celengan,134729610,5083,7304.0,9,553,26505.923667125713,14.003820618776896
+"Celengan, Gantungan Baju / Hanger",405670,9,20.0,1,0,45074.444444444445,0.04216541494048134
+"Celengan, Gantungan Baju / Hanger, Saringan / Strainer",83984,1,4.0,0,0,83984.0,0.008729312515989313
+"Celengan, Gayung",111600,2,7.0,0,0,55800.0,0.011599724671180313
+"Celengan, Gayung, Pisau / Alat Potong",42288,1,4.0,0,0,42288.0,0.004395422552821443
+"Celengan, Gayung, Saringan / Strainer",52005,1,3.0,0,0,52005.0,0.00540540933265889
+"Celengan, Keranjang",1050984,27,75.0,3,3,38925.333333333336,0.10923947162917355
+"Celengan, Keranjang, Other",246161,6,29.0,0,2,41026.833333333336,0.025586019935326318
+"Celengan, Keranjang, Other, Sapu / Pembersih Lantai, Saringan / Strainer",198616,1,8.0,0,0,198616.0,0.020644183828773737
+"Celengan, Keranjang, Other, Saringan / Strainer",120800,1,0.0,0,0,120800.0,0.012555974375256108
+"Celengan, Keranjang, Peralatan Makan, Plastik / Wadah Plastik",101697,1,6.0,0,0,101697.0,0.010570405016890898
+"Celengan, Keranjang, Perlengkapan Packing",81400,4,14.0,0,2,20350.0,0.008460731077366284
+"Celengan, Keranjang, Plastik / Wadah Plastik",76700,2,6.0,0,0,38350.0,0.007972212206805824
+"Celengan, Keranjang, Plastik / Wadah Plastik, Saringan / Strainer",300968,1,20.0,0,0,300968.0,0.03128266966698742
+"Celengan, Keranjang, Sapu / Pembersih Lantai, Sikat / Pembersih",45440,2,8.0,0,1,22720.0,0.004723042016652629
+"Celengan, Keranjang, Spatula",21800,1,3.0,0,0,21800.0,0.002265896037918735
+"Celengan, Lunch Box / Rantang",56378,3,7.0,0,1,18792.666666666668,0.005859939762650571
+"Celengan, Lunch Box / Rantang, Plastik / Wadah Plastik",102975,1,3.0,0,0,102975.0,0.010703240573609253
+"Celengan, Mangkok",37000,2,5.0,0,1,18500.0,0.0038457868533483116
+"Celengan, Mangkok Sambal / Saus",245487,5,24.0,0,1,49097.4,0.025515964250484243
+"Celengan, Mangkok, Nampan / Tray",49296,1,5.0,0,0,49296.0,0.005123835370882658
+"Celengan, Nampan / Tray",61398,1,3.0,0,0,61398.0,0.006381719492483234
+"Celengan, Nampan / Tray, Other",39700,1,3.0,0,0,39700.0,0.004126425353457513
+"Celengan, Nampan / Tray, Other, Peralatan Makan, Sapu / Pembersih Lantai, Saringan / Strainer",60806,1,6.0,1,0,60806.0,0.006320186902829661
+"Celengan, Nampan / Tray, Other, Sapu / Pembersih Lantai",98700,1,7.0,0,0,98700.0,0.010258896281769686
+"Celengan, Nampan / Tray, Pisau / Alat Potong",0,1,53.0,0,1,0.0,0.0
+"Celengan, Nampan / Tray, Sikat / Pembersih",34350,1,3.0,0,0,34350.0,0.003570345362500392
+"Celengan, Nampan / Tray, Spatula",62700,1,4.0,0,0,62700.0,0.006517049613647004
+"Celengan, Nampan / Tray, Toples / Sealware",111600,1,6.0,0,0,111600.0,0.011599724671180313
+"Celengan, Other",1450100,28,79.0,0,0,51789.28571428572,0.15072366259568615
+"Celengan, Other, Peralatan Makan",219006,3,20.0,0,0,73002.0,0.022763524205524334
+"Celengan, Other, Peralatan Makan, Toples / Sealware",0,1,5.0,0,1,0.0,0.0
+"Celengan, Other, Perlengkapan Packing",93326,2,7.0,0,0,46663.0,0.00970032172636715
+"Celengan, Other, Perlengkapan Packing, Plastik / Wadah Plastik",55475,1,4.0,0,0,55475.0,0.005766081775391826
+"Celengan, Other, Pisau / Alat Potong",0,1,6.0,0,1,0.0,0.0
+"Celengan, Other, Pisau / Alat Potong, Saringan / Strainer",39556,1,4.0,0,0,39556.0,0.004111457966785022
+"Celengan, Other, Plastik / Wadah Plastik",49227,1,4.0,0,0,49227.0,0.00511666349810209
+"Celengan, Other, Sapu / Pembersih Lantai",68014,1,4.0,0,0,68014.0,0.007069387757936002
+"Celengan, Other, Saringan / Strainer",124812,2,9.0,1,0,62406.0,0.012972982398381338
+"Celengan, Other, Toples / Sealware",39700,1,4.0,0,0,39700.0,0.004126425353457513
+"Celengan, Peralatan Kamar Mandi",137297,4,9.0,0,0,34324.25,0.01427067561092333
+"Celengan, Peralatan Makan",417848,6,33.0,0,1,69641.33333333333,0.043431198516159064
+"Celengan, Peralatan Makan, Perlengkapan Packing, Tempat Nasi",106700,1,5.0,0,0,106700.0,0.011090417763574726
+"Celengan, Peralatan Makan, Rak / Rak Serbaguna",141500,1,7.0,0,0,141500.0,0.01470753620942665
+"Celengan, Peralatan Makan, Toples / Sealware",173624,1,0.0,0,0,173624.0,0.018046510719614793
+"Celengan, Perlengkapan Packing",2413546,56,175.0,0,4,43099.03571428572,0.2508644182905785
+"Celengan, Perlengkapan Packing, Pisau / Alat Potong",0,2,10.0,0,2,0.0,0.0
+"Celengan, Perlengkapan Packing, Plastik / Wadah Plastik",27700,1,3.0,0,0,27700.0,0.002879143130749952
+"Celengan, Perlengkapan Packing, Sapu / Pembersih Lantai",101336,2,4.0,0,0,50668.0,0.010532882610024446
+"Celengan, Perlengkapan Packing, Sikat / Pembersih",47900,1,4.0,0,0,47900.0,0.0049787348723076795
+"Celengan, Piring",34400,1,2.0,0,0,34400.0,0.0035755423717616737
+"Celengan, Piring, Plastik / Wadah Plastik",33000,1,5.0,0,0,33000.0,0.0034300261124457915
+"Celengan, Pisau / Alat Potong",24735,1,2.0,0,0,24735.0,0.002570960481555959
+"Celengan, Pisau / Alat Potong, Tempat Nasi",100138,1,4.0,0,0,100138.0,0.01040836226812414
+"Celengan, Plastik / Wadah Plastik",298905,8,21.0,0,0,37363.125,0.03106824106486695
+"Celengan, Plastik / Wadah Plastik, Sikat / Pembersih",101236,3,15.0,0,1,33745.333333333336,0.010522488591501882
+"Celengan, Plastik / Wadah Plastik, Teko / Jug",26862,1,3.0,0,0,26862.0,0.002792041255530874
+"Celengan, Plastik / Wadah Plastik, Tempat Nasi",37192,1,3.0,0,0,37192.0,0.003865743368911632
+"Celengan, Rak / Rak Serbaguna",129990,3,6.0,0,0,43330.0,0.013511184677479648
+"Celengan, Sapu / Pembersih Lantai",746865,16,47.0,0,1,46679.0625,0.07762928643854018
+"Celengan, Sapu / Pembersih Lantai, Sikat / Pembersih",71800,1,5.0,0,0,71800.0,0.007462905299200236
+"Celengan, Saringan / Strainer",326266,11,23.0,0,1,29660.545454545456,0.033912148472825414
+"Celengan, Saringan / Strainer, Sikat / Pembersih",177626,2,14.0,0,0,88813.0,0.018462479340887763
+"Celengan, Sikat / Pembersih",144137,4,8.0,0,0,36034.25,0.014981626477866638
+"Celengan, Spatula",33000,1,2.0,0,0,33000.0,0.0034300261124457915
+"Celengan, Teko / Jug",79800,2,7.0,0,1,39900.0,0.008294426781005278
+"Celengan, Tempat Sampah",48840,1,2.0,0,0,48840.0,0.005076438646419771
+"Celengan, Toples / Sealware",108346,4,10.0,1,0,27086.5,0.011261503308456112
+Cobek / Ulekan,1332727,25,25.0,0,6,53309.08,0.13852389123519826
+"Cobek / Ulekan, Gantungan Baju / Hanger, Other, Saringan / Strainer",109500,1,4.0,0,0,109500.0,0.01138145028220649
+"Cobek / Ulekan, Gayung, Pisau / Alat Potong, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Sikat / Pembersih",145000,1,6.0,0,0,145000.0,0.015071326857716356
+"Cobek / Ulekan, Keranjang",76000,1,2.0,0,0,76000.0,0.007899454077147884
+"Cobek / Ulekan, Nampan / Tray",85485,1,2.0,0,0,85485.0,0.008885326734012985
+"Cobek / Ulekan, Nampan / Tray, Saringan / Strainer",106000,1,3.0,0,0,106000.0,0.011017659633916784
+"Cobek / Ulekan, Other",9112,1,2.0,1,0,9112.0,0.000947102967775941
+"Cobek / Ulekan, Other, Peralatan Makan, Talenan, Toples / Sealware",86500,1,7.0,0,0,86500.0,0.008990826022017
+"Cobek / Ulekan, Other, Plastik / Wadah Plastik",0,1,5.0,0,1,0.0,0.0
+"Cobek / Ulekan, Other, Sapu / Pembersih Lantai",167000,1,3.0,0,0,167000.0,0.017358010932680218
+"Cobek / Ulekan, Talenan",190667,2,4.0,0,0,95333.5,0.019817963296415202
+Gantungan Baju / Hanger,3108383,68,122.0,3,10,45711.51470588235,0.3230859047721996
+"Gantungan Baju / Hanger, Keranjang",64686,1,3.0,0,0,64686.0,0.0067234748215051045
+"Gantungan Baju / Hanger, Mangkok Sambal / Saus",96720,2,6.0,0,0,48360.0,0.010053094715022939
+"Gantungan Baju / Hanger, Mangkok Sambal / Saus, Nampan / Tray, Other, Pisau / Alat Potong, Saringan / Strainer",122318,1,9.0,2,0,122318.0,0.012713755576428617
+"Gantungan Baju / Hanger, Mangkok Sambal / Saus, Nampan / Tray, Perlengkapan Packing",90901,1,8.0,0,0,90901.0,0.009448266777194996
+"Gantungan Baju / Hanger, Mangkok Sambal / Saus, Saringan / Strainer",90800,2,6.0,0,0,45400.0,0.009437768818487208
+"Gantungan Baju / Hanger, Mangkok Sambal / Saus, Saringan / Strainer, Spatula",59801,1,4.0,0,0,59801.0,0.006215727016677903
+"Gantungan Baju / Hanger, Nampan / Tray",90883,1,2.0,0,0,90883.0,0.009446395853860935
+"Gantungan Baju / Hanger, Nampan / Tray, Plastik / Wadah Plastik",31000,1,4.0,0,0,31000.0,0.0032221457419945314
+"Gantungan Baju / Hanger, Nampan / Tray, Saringan / Strainer, Sikat / Pembersih",57160,1,4.0,0,0,57160.0,0.0059412209874970135
+"Gantungan Baju / Hanger, Other",245420,2,8.0,0,0,122710.0,0.025509000258074125
+"Gantungan Baju / Hanger, Other, Peralatan Kamar Mandi, Pisau / Alat Potong, Plastik / Wadah Plastik",127900,1,6.0,0,0,127900.0,0.013293949690358083
+"Gantungan Baju / Hanger, Other, Plastik / Wadah Plastik, Sikat / Pembersih",133000,1,5.0,0,0,133000.0,0.013824044635008798
+"Gantungan Baju / Hanger, Peralatan Kamar Mandi",34383,1,2.0,0,0,34383.0,0.0035737753886128376
+"Gantungan Baju / Hanger, Plastik / Wadah Plastik",126664,1,2.0,0,0,126664.0,0.013165479621419203
+"Gantungan Baju / Hanger, Tempat Nasi",38800,1,2.0,0,0,38800.0,0.004032879186754446
+Gayung,592193,48,81.0,1,7,12337.354166666666,0.06155265010932153
+"Gayung, Keranjang",11400,1,2.0,0,0,11400.0,0.0011849181115721826
+"Gayung, Lunch Box / Rantang, Saringan / Strainer",32620,1,3.0,0,0,32620.0,0.003390528842060052
+"Gayung, Mangkok Sambal / Saus",98145,2,8.0,0,0,49072.5,0.01020120947896946
+"Gayung, Mangkok Sambal / Saus, Saringan / Strainer",0,1,3.0,0,1,0.0,0.0
+"Gayung, Mangkok, Nampan / Tray, Peralatan Makan, Piring, Plastik / Wadah Plastik",99900,1,16.0,0,0,99900.0,0.010383624504040442
+"Gayung, Nampan / Tray",85540,2,7.0,0,0,42770.0,0.008891043444200393
+"Gayung, Piring",81080,1,9.0,0,0,81080.0,0.008427470218094084
+"Gayung, Toples / Sealware",181340,1,6.0,0,0,181340.0,0.018848513188815752
+Keranjang,13431601,457,1067.0,14,85,29390.81181619256,1.3960830958167576
+"Keranjang, Lunch Box / Rantang, Other, Peralatan Makan",53000,1,5.0,0,0,53000.0,0.005508829816958392
+"Keranjang, Mangkok",33500,1,3.0,0,0,33500.0,0.0034819962050586066
+"Keranjang, Mangkok Sambal / Saus",205365,6,15.0,0,0,34227.5,0.021345676138861513
+"Keranjang, Mangkok Sambal / Saus, Nampan / Tray",190960,4,20.0,0,1,47740.0,0.019848417770686314
+"Keranjang, Mangkok Sambal / Saus, Nampan / Tray, Peralatan Makan, Spatula",139370,1,12.0,0,0,139370.0,0.01448614361489606
+"Keranjang, Mangkok Sambal / Saus, Other",125353,2,11.0,0,0,62676.5,0.013029214038588402
+"Keranjang, Mangkok Sambal / Saus, Other, Peralatan Makan",76000,1,8.0,0,0,76000.0,0.007899454077147884
+"Keranjang, Mangkok Sambal / Saus, Other, Peralatan Makan, Spatula",155000,1,14.0,0,0,155000.0,0.01611072870997266
+"Keranjang, Mangkok Sambal / Saus, Other, Peralatan Makan, Spatula, Toples / Sealware",360573,1,21.0,0,0,360573.0,0.0374780244073611
+"Keranjang, Mangkok Sambal / Saus, Peralatan Makan",0,1,3.0,0,1,0.0,0.0
+"Keranjang, Mangkok Sambal / Saus, Peralatan Makan, Plastik / Wadah Plastik",92541,1,7.0,0,0,92541.0,0.00961872868096503
+"Keranjang, Nampan / Tray",177984,6,24.0,1,2,29664.0,0.018499689927198536
+"Keranjang, Nampan / Tray, Other, Toples / Sealware",200206,1,15.0,0,0,200206.0,0.02080944872328249
+"Keranjang, Nampan / Tray, Peralatan Kamar Mandi, Rak / Rak Serbaguna",114636,1,5.0,0,0,114636.0,0.011915287073525325
+"Keranjang, Nampan / Tray, Peralatan Makan",89477,1,12.0,0,0,89477.0,0.0093002559534337
+"Keranjang, Nampan / Tray, Peralatan Makan, Piring, Pisau / Alat Potong, Plastik / Wadah Plastik",0,1,9.0,0,1,0.0,0.0
+"Keranjang, Nampan / Tray, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Saringan / Strainer",96467,1,9.0,0,0,96467.0,0.010026797848160853
+"Keranjang, Other",419690,10,29.0,0,3,41969.0,0.043622656337344676
+"Keranjang, Other, Pengolah Bumbu / Sayur, Plastik / Wadah Plastik, Spatula",198508,1,9.0,0,0,198508.0,0.020632958288769366
+"Keranjang, Other, Peralatan Makan, Pisau / Alat Potong, Plastik / Wadah Plastik, Spatula",0,1,10.0,0,1,0.0,0.0
+"Keranjang, Other, Pisau / Alat Potong",36400,1,3.0,0,0,36400.0,0.0037834227422129337
+"Keranjang, Other, Plastik / Wadah Plastik",52000,1,4.0,0,0,52000.0,0.005404889631732763
+"Keranjang, Other, Plastik / Wadah Plastik, Saringan / Strainer, Tempat Nasi",121162,1,8.0,0,0,121162.0,0.012593600722307786
+"Keranjang, Other, Rak / Rak Serbaguna",108338,1,3.0,0,0,108338.0,0.011260671786974307
+"Keranjang, Other, Rak / Rak Serbaguna, Spatula",154400,1,6.0,0,0,154400.0,0.01604836459883728
+"Keranjang, Other, Teko / Jug",34800,1,3.0,0,0,34800.0,0.0036171184458519256
+"Keranjang, Other, Tempat Nasi",0,1,3.0,0,1,0.0,0.0
+"Keranjang, Peralatan Kamar Mandi, Perlengkapan Packing, Sikat / Pembersih, Toples / Sealware",54000,1,6.0,0,0,54000.0,0.0056127700021840225
+"Keranjang, Peralatan Kamar Mandi, Pisau / Alat Potong",37000,1,5.0,0,0,37000.0,0.0038457868533483116
+"Keranjang, Peralatan Makan",86494,4,12.0,0,1,21623.5,0.008990202380905645
+"Keranjang, Peralatan Makan, Piring, Pisau / Alat Potong",0,1,7.0,0,1,0.0,0.0
+"Keranjang, Peralatan Makan, Pisau / Alat Potong",0,1,3.0,0,1,0.0,0.0
+"Keranjang, Peralatan Makan, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Talenan, Tempat Nasi",0,1,11.0,0,1,0.0,0.0
+"Keranjang, Peralatan Makan, Toples / Sealware",38800,1,5.0,0,0,38800.0,0.004032879186754446
+"Keranjang, Perlengkapan Packing",1322169,9,189.0,0,1,146907.66666666666,0.13742649075958605
+"Keranjang, Perlengkapan Packing, Rak / Rak Serbaguna",0,1,3.0,0,1,0.0,0.0
+"Keranjang, Perlengkapan Packing, Rak / Rak Serbaguna, Sikat / Pembersih, Teko / Jug",149965,1,5.0,0,0,149965.0,0.015587389877361609
+"Keranjang, Piring",48632,1,5.0,0,0,48632.0,0.00505481908789284
+"Keranjang, Piring, Rak / Rak Serbaguna, Toples / Sealware",110455,1,4.0,0,0,110455.0,0.011480713159096967
+"Keranjang, Pisau / Alat Potong",0,1,5.0,0,1,0.0,0.0
+"Keranjang, Plastik / Wadah Plastik",0,1,5.0,0,1,0.0,0.0
+"Keranjang, Plastik / Wadah Plastik, Sikat / Pembersih",46864,1,5.0,0,0,46864.0,0.004871052840413927
+"Keranjang, Rak / Rak Serbaguna",595793,10,28.0,0,3,59579.3,0.0619268347761338
+"Keranjang, Rak / Rak Serbaguna, Sapu / Pembersih Lantai",70122,1,4.0,0,0,70122.0,0.00728849366839163
+"Keranjang, Saringan / Strainer",122530,2,5.0,0,0,61265.0,0.01273579089569645
+"Keranjang, Spatula",28040,1,2.0,0,0,28040.0,0.0029144827937266663
+"Keranjang, Teko / Jug",66435,2,10.0,0,1,33217.5,0.006905266205464731
+Lunch Box / Rantang,43508411,492,2897.0,43,98,88431.72967479675,4.52227229821284
+"Lunch Box / Rantang, Mangkok Sambal / Saus",98354,2,4.0,0,0,49177.0,0.010222932977681619
+"Lunch Box / Rantang, Mangkok Sambal / Saus, Other",693860,1,12.0,0,0,693860.0,0.07211993692065567
+"Lunch Box / Rantang, Mangkok Sambal / Saus, Peralatan Makan",93000,1,7.0,0,0,93000.0,0.009666437225983593
+"Lunch Box / Rantang, Mangkok Sambal / Saus, Saringan / Strainer",38370,1,3.0,0,0,38370.0,0.003988184907107424
+"Lunch Box / Rantang, Other",47213,2,6.0,3,0,23606.5,0.004907327965057671
+"Lunch Box / Rantang, Other, Peralatan Kamar Mandi, Sikat / Pembersih",69640,1,4.0,0,0,69640.0,0.0072383944991128765
+"Lunch Box / Rantang, Peralatan Makan",102379,1,4.0,0,0,102379.0,0.010641292223214778
+"Lunch Box / Rantang, Peralatan Makan, Spatula",115000,1,3.0,0,0,115000.0,0.011953121300947455
+"Lunch Box / Rantang, Perlengkapan Packing",315208,4,24.0,0,2,78802.0,0.032762777904600394
+"Lunch Box / Rantang, Rak / Rak Serbaguna",92000,1,2.0,0,0,92000.0,0.009562497040757964
+"Lunch Box / Rantang, Saringan / Strainer",204595,1,16.0,0,0,204595.0,0.021265642196237777
+"Lunch Box / Rantang, Tempat Nasi",0,1,2.0,0,1,0.0,0.0
+"Lunch Box / Rantang, Toples / Sealware",61912,1,5.0,0,0,61912.0,0.006435144747689207
+Mangkok,620433,15,32.0,0,5,41362.2,0.06448792094009333
+Mangkok Sambal / Saus,118788703,3253,7335.0,8,354,36516.662465416535,12.346919792532356
+"Mangkok Sambal / Saus, Nampan / Tray",738495,10,55.0,0,0,73849.5,0.07675930708820167
+"Mangkok Sambal / Saus, Nampan / Tray, Other",193560,3,14.0,0,0,64520.0,0.02011866225227295
+"Mangkok Sambal / Saus, Nampan / Tray, Peralatan Makan",134414,3,13.0,0,0,44804.666666666664,0.013971016056917838
+"Mangkok Sambal / Saus, Nampan / Tray, Perlengkapan Packing",74840,1,5.0,0,0,74840.0,0.007778883462286152
+"Mangkok Sambal / Saus, Nampan / Tray, Plastik / Wadah Plastik",35500,1,5.0,0,0,35500.0,0.0036898765755098667
+"Mangkok Sambal / Saus, Nampan / Tray, Saringan / Strainer",91270,1,4.0,0,0,91270.0,0.009486620705543253
+"Mangkok Sambal / Saus, Nampan / Tray, Sikat / Pembersih",35400,1,4.0,0,0,35400.0,0.003679482556987304
+"Mangkok Sambal / Saus, Other",858415,19,62.0,0,2,45179.73684210526,0.08922381410045922
+"Mangkok Sambal / Saus, Other, Pengolah Bumbu / Sayur, Peralatan Makan",116960,1,8.0,0,0,116960.0,0.01215684406398969
+"Mangkok Sambal / Saus, Other, Peralatan Makan",250852,3,17.0,0,0,83617.33333333333,0.02607360334421975
+"Mangkok Sambal / Saus, Other, Peralatan Makan, Piring",104500,1,15.0,0,0,104500.0,0.010861749356078339
+"Mangkok Sambal / Saus, Other, Peralatan Makan, Pisau / Alat Potong",60696,1,8.0,0,0,60696.0,0.00630875348245484
+"Mangkok Sambal / Saus, Other, Perlengkapan Packing",63500,1,4.0,0,0,63500.0,0.006600201761827508
+"Mangkok Sambal / Saus, Other, Pisau / Alat Potong",33240,1,3.0,0,0,33240.0,0.003454971756899943
+"Mangkok Sambal / Saus, Other, Plastik / Wadah Plastik",274318,6,27.0,0,1,45719.666666666664,0.028512663730724384
+"Mangkok Sambal / Saus, Other, Plastik / Wadah Plastik, Saringan / Strainer",95000,1,6.0,0,0,95000.0,0.009874317596434855
+"Mangkok Sambal / Saus, Other, Rak / Rak Serbaguna",0,1,8.0,0,1,0.0,0.0
+"Mangkok Sambal / Saus, Other, Saringan / Strainer",187576,4,13.0,1,0,46894.0,0.01949668418388278
+"Mangkok Sambal / Saus, Other, Sikat / Pembersih",145418,2,6.0,2,0,72709.0,0.015114773855140668
+"Mangkok Sambal / Saus, Other, Tempat Sampah",119372,1,6.0,0,0,119372.0,0.012407547790753908
+"Mangkok Sambal / Saus, Peralatan Kamar Mandi",153816,1,7.0,0,0,153816.0,0.01598766353066551
+"Mangkok Sambal / Saus, Peralatan Makan",1765701,36,137.0,0,4,49047.25,0.1835272889930802
+"Mangkok Sambal / Saus, Peralatan Makan, Perkakas",91480,1,6.0,0,0,91480.0,0.009508448144440637
+"Mangkok Sambal / Saus, Peralatan Makan, Piring",0,1,7.0,0,1,0.0,0.0
+"Mangkok Sambal / Saus, Peralatan Makan, Pisau / Alat Potong",40390,1,3.0,0,0,40390.0,0.004198144081263198
+"Mangkok Sambal / Saus, Peralatan Makan, Plastik / Wadah Plastik",101520,2,8.0,0,0,50760.0,0.010552007604105962
+"Mangkok Sambal / Saus, Peralatan Makan, Sapu / Pembersih Lantai",112000,1,7.0,0,0,112000.0,0.011641300745270564
+"Mangkok Sambal / Saus, Peralatan Makan, Saringan / Strainer",60000,1,5.0,0,0,60000.0,0.006236411113537803
+"Mangkok Sambal / Saus, Peralatan Makan, Spatula",42468,1,9.0,6,0,42468.0,0.004414131786162056
+"Mangkok Sambal / Saus, Peralatan Makan, Talenan",111760,1,5.0,0,0,111760.0,0.011616355100816414
+"Mangkok Sambal / Saus, Perlengkapan Packing",1157710,22,98.0,0,4,52623.181818181816,0.12033259183756415
+"Mangkok Sambal / Saus, Piring",338649,4,57.0,3,0,84662.25,0.035199239786474386
+"Mangkok Sambal / Saus, Piring, Saringan / Strainer",42600,1,3.0,0,0,42600.0,0.0044278518906118395
+"Mangkok Sambal / Saus, Pisau / Alat Potong",180004,4,12.0,0,1,45001.0,0.01870964910135431
+"Mangkok Sambal / Saus, Pisau / Alat Potong, Plastik / Wadah Plastik, Toples / Sealware",0,1,5.0,5,0,0.0,0.0
+"Mangkok Sambal / Saus, Plastik / Wadah Plastik",91797,2,6.0,0,0,45898.5,0.009541397183157161
+"Mangkok Sambal / Saus, Rak / Rak Serbaguna",141908,3,7.0,0,1,47302.666666666664,0.01474994380499871
+"Mangkok Sambal / Saus, Sapu / Pembersih Lantai",83904,4,13.0,0,2,20976.0,0.008720997301171263
+"Mangkok Sambal / Saus, Sapu / Pembersih Lantai, Saringan / Strainer, Sikat / Pembersih, Spatula",48895,1,5.0,1,0,48895.0,0.005082155356607181
+"Mangkok Sambal / Saus, Saringan / Strainer",301080,8,21.0,0,1,37635.0,0.03129431096773269
+"Mangkok Sambal / Saus, Spatula",34000,1,2.0,0,0,34000.0,0.0035339662976714213
+"Mangkok Sambal / Saus, Talenan",132998,2,8.0,0,0,66499.0,0.013823836754638344
+"Mangkok Sambal / Saus, Teko / Jug",236233,2,5.0,0,0,118116.5,0.024554101776406264
+"Mangkok Sambal / Saus, Tempat Nasi",167032,2,4.0,0,0,83516.0,0.017361337018607436
+"Mangkok, Mangkok Sambal / Saus, Nampan / Tray, Other, Piring",266482,1,27.0,0,0,266482.0,0.027698188439296348
+"Mangkok, Mangkok Sambal / Saus, Perlengkapan Packing",96500,2,10.0,0,1,48250.0,0.010030227874273299
+"Mangkok, Mangkok Sambal / Saus, Piring",61528,1,3.0,0,0,61528.0,0.006395231716562566
+"Mangkok, Nampan / Tray",37400,1,4.0,0,0,37400.0,0.0038873629274385636
+"Mangkok, Other, Peralatan Makan, Tempat Nasi",96445,1,4.0,0,0,96445.0,0.01002451116408589
+Nampan / Tray,88563892,1140,8790.0,98,160,77687.62456140351,9.205347338782694
+"Nampan / Tray, Other",465524,6,21.0,3,0,77587.33333333333,0.048386650786976196
+"Nampan / Tray, Other, Perlengkapan Packing",250553,2,12.0,0,0,125276.5,0.026042525228837286
+"Nampan / Tray, Other, Plastik / Wadah Plastik",40000,1,4.0,0,0,40000.0,0.0041576074090252015
+"Nampan / Tray, Other, Saringan / Strainer",70472,1,5.0,0,0,70472.0,0.0073248727332206
+"Nampan / Tray, Other, Saringan / Strainer, Spatula",176500,1,7.0,0,0,176500.0,0.018345442692323702
+"Nampan / Tray, Other, Spatula",138000,1,3.0,0,0,138000.0,0.014343745561136946
+"Nampan / Tray, Peralatan Kamar Mandi",40388,1,4.0,0,0,40388.0,0.004197936200892746
+"Nampan / Tray, Peralatan Kamar Mandi, Plastik / Wadah Plastik",32004,1,4.0,1,0,32004.0,0.003326501687961064
+"Nampan / Tray, Peralatan Makan",33500,1,3.0,0,0,33500.0,0.0034819962050586066
+"Nampan / Tray, Perlengkapan Packing",1111014,20,62.0,0,4,55550.7,0.11547900094826813
+"Nampan / Tray, Piring",553240,4,8.0,0,1,138310.0,0.05750386807422756
+"Nampan / Tray, Plastik / Wadah Plastik",125532,4,16.0,2,1,31383.0,0.01304781933174379
+"Nampan / Tray, Plastik / Wadah Plastik, Rak / Rak Serbaguna",122804,1,8.0,0,0,122804.0,0.012764270506448273
+"Nampan / Tray, Sapu / Pembersih Lantai, Teko / Jug",0,1,3.0,0,1,0.0,0.0
+"Nampan / Tray, Saringan / Strainer",208392,5,14.0,1,0,41678.4,0.021660303079539495
+"Nampan / Tray, Saringan / Strainer, Spatula",18096,1,3.0,0,0,18096.0,0.0018809015918430012
+"Nampan / Tray, Saringan / Strainer, Tempat Nasi",36342,1,3.0,0,0,36342.0,0.0037773942114698467
+"Nampan / Tray, Seal / Baut / Roof",0,1,2.0,0,1,0.0,0.0
+"Nampan / Tray, Spatula",19079,3,8.0,0,2,6359.666666666667,0.001983074793919796
+"Nampan / Tray, Tempat Nasi",31460,2,4.0,0,1,15730.0,0.0032699582271983212
+Other,33584849,473,760.0,10,101,71003.90909090909,3.490815425834816
+"Other, Pengolah Bumbu / Sayur, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer, Spatula",0,1,6.0,0,1,0.0,0.0
+"Other, Peralatan Kamar Mandi, Sikat / Pembersih",57841,1,6.0,0,0,57841.0,0.006012004253635668
+"Other, Peralatan Makan",676117,7,14.0,0,3,96588.14285714286,0.07027572621419731
+"Other, Peralatan Makan, Perlengkapan Packing",172520,1,3.0,0,0,172520.0,0.017931760755125696
+"Other, Peralatan Makan, Perlengkapan Packing, Pisau / Alat Potong, Spatula, Talenan",92936,1,10.0,0,0,92936.0,0.009659785054129155
+"Other, Peralatan Makan, Pisau / Alat Potong, Saringan / Strainer",0,1,5.0,0,1,0.0,0.0
+"Other, Perlengkapan Packing",1448904,10,26.0,0,1,144890.4,0.15059935013415626
+"Other, Perlengkapan Packing, Pisau / Alat Potong",123312,1,5.0,0,0,123312.0,0.012817072120542892
+"Other, Perlengkapan Packing, Rak / Rak Serbaguna",0,1,3.0,0,1,0.0,0.0
+"Other, Piring",36589,1,2.0,0,0,36589.0,0.0038030674372205777
+"Other, Piring, Sikat / Pembersih",50929,1,7.0,0,0,50929.0,0.005293569693356113
+"Other, Pisau / Alat Potong",108700,1,12.0,0,0,108700.0,0.011298298134025987
+"Other, Pisau / Alat Potong, Plastik / Wadah Plastik, Spatula",385612,1,8.0,0,0,385612.0,0.04008058270522565
+"Other, Pisau / Alat Potong, Saringan / Strainer, Tempat Nasi",0,1,6.0,0,1,0.0,0.0
+"Other, Pisau / Alat Potong, Teko / Jug",60900,1,3.0,0,0,60900.0,0.00632995728024087
+"Other, Plastik / Wadah Plastik",255008,6,17.0,0,1,42501.333333333336,0.026505578754017465
+"Other, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Sikat / Pembersih",171921,1,7.0,0,0,171921.0,0.01786950058417554
+"Other, Plastik / Wadah Plastik, Seal / Baut / Roof",6616,1,3.0,1,0,6616.0,0.0006876682654527684
+"Other, Plastik / Wadah Plastik, Sikat / Pembersih",41078,1,5.0,0,0,41078.0,0.004269654928698431
+"Other, Plastik / Wadah Plastik, Teko / Jug",71720,1,8.0,0,0,71720.0,0.0074545900843821875
+"Other, Rak / Rak Serbaguna",173215,2,4.0,0,0,86607.5,0.01800399918385751
+"Other, Rak / Rak Serbaguna, Sapu / Pembersih Lantai",0,1,3.0,0,1,0.0,0.0
+"Other, Rak / Rak Serbaguna, Sikat / Pembersih",170720,1,4.0,0,0,170720.0,0.01774466842171956
+"Other, Sapu / Pembersih Lantai",173933,3,7.0,1,1,57977.666666666664,0.018078628236849508
+"Other, Saringan / Strainer",1421858,6,108.0,0,2,236976.33333333334,0.14778818388454387
+"Other, Sikat / Pembersih",33000,2,6.0,0,1,16500.0,0.0034300261124457915
+"Other, Spatula",267120,2,9.0,0,0,133560.0,0.0277645022774703
+"Other, Spatula, Tempat Nasi",18160,1,3.0,0,0,18160.0,0.0018875537636974414
+"Other, Talenan",135734,1,3.0,0,0,135734.0,0.01410821710141567
+"Other, Teko / Jug",85196,3,10.0,0,1,28398.666666666668,0.008855288020482776
+"Other, Tempat Nasi",42270,2,4.0,0,0,21135.0,0.004393551629487382
+"Other, Toples / Sealware",86200,2,6.0,0,0,43100.0,0.00895964396644931
+Pengolah Bumbu / Sayur,7423334,141,158.0,1,47,52647.75886524823,0.7715827109517172
+"Pengolah Bumbu / Sayur, Perlengkapan Packing",68231,1,2.0,0,0,68231.0,0.007091942778129963
+"Pengolah Bumbu / Sayur, Pisau / Alat Potong",158140,1,3.0,0,0,158140.0,0.016437100891581135
+"Pengolah Bumbu / Sayur, Toples / Sealware",108000,1,5.0,0,0,108000.0,0.011225540004368045
+Peralatan Kamar Mandi,3834617,197,227.0,0,29,19465.060913705584,0.3985708012493498
+"Peralatan Kamar Mandi, Perlengkapan Packing",45720,1,2.0,0,0,45720.0,0.004752145268515806
+"Peralatan Kamar Mandi, Rak / Rak Serbaguna",35320,1,3.0,0,0,35320.0,0.003671167342169253
+Peralatan Makan,9783558,156,333.0,1,24,62715.11538461538,1.0169048306856947
+"Peralatan Makan, Piring",56695,1,3.0,0,0,56695.0,0.005892888801367096
+"Peralatan Makan, Plastik / Wadah Plastik",0,1,2.0,0,1,0.0,0.0
+"Peralatan Makan, Plastik / Wadah Plastik, Saringan / Strainer",49670,2,7.0,0,0,24835.0,0.005162709000157044
+"Peralatan Makan, Rak / Rak Serbaguna, Toples / Sealware",0,1,6.0,0,1,0.0,0.0
+"Peralatan Makan, Saringan / Strainer",195410,4,9.0,0,0,48852.5,0.02031095159494037
+"Peralatan Makan, Saringan / Strainer, Sikat / Pembersih, Teko / Jug",0,1,5.0,0,1,0.0,0.0
+"Peralatan Makan, Saringan / Strainer, Spatula",76141,2,6.0,0,0,38070.5,0.007914109643264697
+"Peralatan Makan, Teko / Jug",129255,3,6.0,0,0,43085.0,0.01343478864133881
+"Peralatan Makan, Toples / Sealware",0,1,17.0,0,1,0.0,0.0
+Perkakas,497260,2,6.0,0,0,248630.0,0.05168529650529679
+Perlengkapan Packing,10392926,67,211.0,2,9,155118.2985074627,1.0802426534762664
+"Perlengkapan Packing, Piring",0,2,22.0,0,2,0.0,0.0
+"Perlengkapan Packing, Pisau / Alat Potong",64375,1,2.0,0,0,64375.0,0.006691149423899935
+"Perlengkapan Packing, Plastik / Wadah Plastik",67590,2,4.0,0,0,33795.0,0.007025317119400334
+"Perlengkapan Packing, Plastik / Wadah Plastik, Rak / Rak Serbaguna",130426,1,4.0,0,0,130426.0,0.013556502598238023
+"Perlengkapan Packing, Plastik / Wadah Plastik, Rak / Rak Serbaguna, Sikat / Pembersih",71000,1,4.0,0,0,71000.0,0.007379753151019733
+"Perlengkapan Packing, Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Sikat / Pembersih",83500,1,8.0,0,0,83500.0,0.008679005466340109
+"Perlengkapan Packing, Rak / Rak Serbaguna",459295,9,19.0,0,3,51032.77777777778,0.04773920737320575
+"Perlengkapan Packing, Seal / Baut / Roof",4359201,5,23.0,0,1,871840.2,0.4530961593757517
+"Perlengkapan Packing, Stempel / Alat Kantor",0,1,2.0,0,1,0.0,0.0
+"Perlengkapan Packing, Teko / Jug",437723,4,13.0,4,0,109430.75,0.04549700969751846
+"Perlengkapan Packing, Teko / Jug, Tempat Nasi",34480,1,3.0,0,0,34480.0,0.003583857586579724
+"Perlengkapan Packing, Tempat Nasi",151381,2,8.0,0,0,75690.5,0.0157345691796411
+"Perlengkapan Packing, Toples / Sealware",299078,6,21.0,0,1,49846.333333333336,0.031086222716910982
+Piring,7496518,130,860.0,11,32,57665.52307692308,0.7791894694672696
+"Piring, Saringan / Strainer",41205,1,5.0,0,0,41205.0,0.004282855332222086
+"Piring, Stempel / Alat Kantor",58000,1,2.0,0,0,58000.0,0.006028530743086543
+Pisau / Alat Potong,4459964,89,217.0,0,21,50111.95505617977,0.4635694842596419
+"Pisau / Alat Potong, Rak / Rak Serbaguna",107325,2,4.0,0,0,53662.5,0.011155380379340744
+"Pisau / Alat Potong, Sapu / Pembersih Lantai, Saringan / Strainer",0,2,6.0,0,2,0.0,0.0
+"Pisau / Alat Potong, Saringan / Strainer",81452,1,4.0,0,0,81452.0,0.008466135966998018
+"Pisau / Alat Potong, Tempat Nasi",42496,1,3.0,0,0,42496.0,0.0044170421113483745
+Plastik / Wadah Plastik,4746848,111,219.0,1,25,42764.3963963964,0.4933882603579115
+"Plastik / Wadah Plastik, Sapu / Pembersih Lantai, Spatula",96000,1,3.0,0,0,96000.0,0.009978257781660484
+"Plastik / Wadah Plastik, Seal / Baut / Roof",35500,1,5.0,0,0,35500.0,0.0036898765755098667
+"Plastik / Wadah Plastik, Spatula",101495,1,2.0,0,0,101495.0,0.010549409099475321
+"Plastik / Wadah Plastik, Tempat Nasi",28787,1,2.0,0,0,28787.0,0.002992126112090212
+Pot Tanaman / Bunga,0,2,3.0,0,2,0.0,0.0
+Rak / Rak Serbaguna,31218023,573,597.0,2,183,54481.715532286216,3.244807092997979
+"Rak / Rak Serbaguna, Sapu / Pembersih Lantai",316191,2,5.0,0,0,158095.5,0.03286495110667719
+"Rak / Rak Serbaguna, Sikat / Pembersih",66800,1,2.0,0,0,66800.0,0.006943204373072086
+"Rak / Rak Serbaguna, Spatula",67155,1,2.0,0,0,67155.0,0.0069801031388271855
+"Rak / Rak Serbaguna, Talenan",82952,1,2.0,0,0,82952.0,0.008622046244836463
+Sapu / Pembersih Lantai,343950,16,19.0,0,7,21496.875,0.035750226708355454
+"Sapu / Pembersih Lantai, Toples / Sealware",99800,1,2.0,0,0,99800.0,0.010373230485517878
+Saringan / Strainer,6337695,241,314.0,1,24,26297.489626556016,0.6587411922035493
+"Saringan / Strainer, Spatula",79370,2,5.0,0,0,39685.0,0.008249732501358256
+"Saringan / Strainer, Tempat Nasi",62105,2,4.0,0,1,31052.5,0.006455205203437754
+Seal / Baut / Roof,246424246,586,1949.0,1,86,420519.1911262799,25.61338177332622
+"Seal / Baut / Roof, Sikat / Pembersih",21954,1,2.0,0,0,21954.0,0.002281902826443482
+Sikat / Pembersih,36000,2,6.0,0,1,18000.0,0.003741846668122682
+Spatula,275634,16,20.0,0,5,17227.125,0.028649449014481312
+"Spatula, Tempat Nasi",27910,1,2.0,0,0,27910.0,0.002900970569647334
+Stempel / Alat Kantor,5935060,98,183.0,7,20,60561.836734693876,0.6168912357252279
+Talenan,270744,9,11.0,0,0,30082.666666666668,0.02814118150872798
+Teko / Jug,8259629,194,241.0,2,34,42575.407216494845,0.8585073681549855
+"Teko / Jug, Tempat Nasi",29080,1,2.0,0,0,29080.0,0.0030225805863613214
+Tempat Nasi,9992826,387,543.0,3,67,25821.25581395349,1.0386561853674918
+Toples / Sealware,5619948,129,242.0,2,27,43565.48837209302,0.5841384360784091
