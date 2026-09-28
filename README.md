@@ -4,7 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Learning-orange)
-![Status](https://img.shields.io/badge/Status-In%20Progress-success)
+![Status](https://img.shields.io/badge/Status-Final%20Project%20Complete-success)
+![Weeks](https://img.shields.io/badge/Progress-Week%201--12-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -14,6 +15,8 @@
 This repository documents my work and learning progress throughout the **Industry Simulation Program in Data Analysis** organized by **PT Edusoft Center Teknologi**.
 
 Unlike a typical learning repository, this repository is designed as a professional portfolio that demonstrates the complete workflow of a Junior Data Analyst, from understanding business problems to presenting insights and recommendations.
+
+All learning materials, analyses, and documentation are stored under `docs/`, organized by week. As of **28 September 2026**, the repository contains weekly work through **Week 12** and a completed **Final Project & Portfolio**, organized into the canonical deliverable structure at `docs/Final Project/`.
 
 Throughout this program, every project follows real-world industry practices, including:
 
@@ -46,7 +49,7 @@ By completing this Industry Simulation Program, I aim to:
 
 # 🔄 Data Analysis Workflow
 
-Every project in this repository follows the same workflow:
+Every project in this repository follows the same 12-stage workflow:
 
 ```text
 Business Understanding
@@ -65,6 +68,8 @@ Visualization
         ↓
 Business Insight
         ↓
+Recommendations
+        ↓
 Reporting & Presentation
         ↓
 Documentation
@@ -72,48 +77,54 @@ Documentation
 GitHub Portfolio
 ```
 
+The full description of each stage, including objectives, activities, and deliverables, is documented in `docs/Workflow.md`.
+
 ---
 
 # 📂 Repository Structure
 
+The repository is organized by week, with all learning materials and documentation stored under `docs/`.
+
 ```text
-data-analysis-industry-simulation/
+Data-Analyst/
 │
-├── README.md
-├── LICENSE
+├── README.md              ← you are here
+├── License.mit
 ├── .gitignore
 ├── requirements.txt
 │
-├── docs/
-│   ├── roadmap.md
-│   ├── learning-journal.md
-│   ├── references.md
-│   ├── workflow.md
-│   ├── project-structure.md
-│   └── style-guide.md
-│
-├── datasets/
-│   ├── raw/
-│   ├── processed/
-│   └── README.md
-│
-├── templates/
-│   ├── notebook-template.ipynb
-│   ├── report-template.md
-│   ├── presentation-template.md
-│   └── README-template.md
-│
-├── week-01-orientation/
-├── week-02-data-collection/
-├── week-03-data-cleaning/
-├── week-04-exploratory-data-analysis/
-├── week-05-business-problem/
-├── week-06-reporting-storytelling/
-├── week-07-final-project/
-├── week-08-final-presentation/
-│
-└── capstone/
+└── docs/
+    ├── Roadmap.md
+    ├── Style-Guide.md
+    ├── Workflow.md
+    ├── References.md
+    ├── Project Structure.md
+    ├── learning-journal.md
+    │
+    ├── Week 2- Data Collection & Understanding/
+    ├── Week 4 - SQL & Database Fundamental/
+    ├── Week 5 - Data Cleaning & Preparation/
+    ├── Week-6/
+    ├── Week-7 EDA Lanjutan/
+    ├── Week-8 Problem solving & bussiness question/
+    ├── Week-9 Problem Solving & Bussiness Recomendation/
+    ├── Week-10 Simulasi Industru/
+    ├── Week-11 Final Project/
+    ├── Week-12 Final Project/
+    │
+    └── Final Project/     ← canonical final project structure
 ```
+
+> **Note on naming.** The folder names above are quoted **verbatim** from the
+> repository, including their original spelling, spacing, and capitalization, so
+> that every path in this README corresponds to a real folder. A folder-naming
+> cleanup is tracked separately and has not been applied to the repository.
+
+Weekly folders are named after the week number. The original curriculum used a
+different week numbering, so the table in [Program Progress](#-program-progress)
+below follows the numbering the repository actually uses. The relationship
+between the two is documented in
+[Original Curriculum Mapping](#-original-curriculum-mapping).
 
 ---
 
@@ -128,6 +139,11 @@ Development Environment
 - Google Colab
 - Visual Studio Code
 
+Notebook Environment
+
+- Jupyter Notebook
+- Google Colab
+
 Python Libraries
 
 - Pandas
@@ -135,10 +151,20 @@ Python Libraries
 - Matplotlib
 - Seaborn
 - Plotly
+- SciPy
+
+Excel & Document Processing
+
+- openpyxl
+- XlsxWriter
+- Microsoft Excel
+- Microsoft PowerPoint
+- Microsoft Word
 
 Database
 
-- SQL
+- SQL (relational query fundamentals — SELECT, filtering, JOIN, aggregate
+  functions, subqueries, and window functions)
 
 Version Control
 
@@ -148,39 +174,121 @@ Version Control
 Documentation
 
 - Markdown
-- Microsoft Excel
-- Microsoft PowerPoint
+
+> **Note on SQL.** The SQL work in this repository covers relational and
+> analytical query techniques across ten practice projects. The specific
+> database engine used for the exercises is not documented in the repository,
+> so no engine is claimed here.
 
 ---
 
-# 📅 Program Roadmap
+# 📅 Program Progress
 
-| Week | Topic | Status |
-|------|-------------------------------|--------|
-| 1 | Industry Orientation & Setup Tools | ✅ |
-| 2 | Data Collection & Understanding | ✅ |
-| 3 | Data Cleaning & Preparation | 🚧 |
-| 4 | Exploratory Data Analysis | ⏳ |
-| 5 | Business Problem Solving | ⏳ |
-| 6 | Reporting & Data Storytelling | ⏳ |
-| 7 | Final Project & Portfolio | ⏳ |
-| 8 | Final Presentation & Evaluation | ⏳ |
+Status below is based on evidence committed to this repository: the existence of
+each week's folder and the work stored inside it.
+
+| Week | Topic | Folder in Repository | Status |
+| ---- | ----- | -------------------- | ------ |
+| 1 | Industry Orientation & Setup | *(no folder in repository)* | 📁 Not in repo |
+| 2 | Data Collection & Understanding | `Week 2- Data Collection & Understanding/` | ✅ Completed |
+| 3 | — | *(no folder in repository)* | 📁 Not in repo |
+| 4 | SQL & Database Fundamentals | `Week 4 - SQL & Database Fundamental/` | ✅ Completed |
+| 5 | Data Cleaning & Preparation | `Week 5 - Data Cleaning & Preparation/` | ✅ Completed |
+| 6 | EDA Fundamentals (Univariate, Bivariate, Correlation) | `Week-6/` | ✅ Completed |
+| 7 | Advanced EDA | `Week-7 EDA Lanjutan/` | ✅ Completed |
+| 8 | Problem Solving & Business Questions | `Week-8 Problem solving & bussiness question/` | ✅ Completed |
+| 9 | Solution & Business Recommendation | `Week-9 Problem Solving & Bussiness Recomendation/` | ✅ Completed |
+| 10 | Industry Simulation | `Week-10 Simulasi Industru/` | ✅ Completed |
+| 11 | Final Project & Portfolio | `Week-11 Final Project/` | ✅ Completed |
+| 12 | Final Project (Continuation) | `Week-12 Final Project/` | ✅ Completed |
+| — | **Canonical Final Project Structure** | **`Final Project/`** | **✅ Completed** |
+
+### Why Week 1 and Week 3 Have No Status
+
+Week 1 and Week 3 are marked as *Not in repo* rather than given a completion
+status. No folder exists in this repository for either of them, so neither their
+deliverables nor their completion can be verified from the repository itself.
+They are left unassigned rather than marked complete or in progress, because
+assigning a status without evidence would misrepresent the work.
+
+---
+
+# 🔀 Original Curriculum Mapping
+
+The program was originally planned as an 8-week curriculum. The repository
+implements the same learning topics under a different week numbering, and
+includes one additional learning stage that was not in the original plan.
+
+| Original curriculum topic | Repository implementation |
+| ------------------------- | ------------------------- |
+| Data Collection & Understanding | Week 2 |
+| Data Cleaning & Preparation | Week 5 |
+| Exploratory Data Analysis | Week 6 and Week 7 |
+| Business Problem Solving | Week 8 and Week 9 |
+| Reporting / Industry Simulation | Week 10 |
+| Final Project & Portfolio | Week 11 and Week 12 |
+
+> **SQL & Database Fundamentals was added as an additional learning stage and is
+> documented in Week 4.** It is not part of the original 8-week curriculum plan.
+
+Both numbering systems are kept in this README deliberately: the curriculum table
+records what was originally planned, while the Program Progress table records what
+is actually present in the repository.
+
+---
+
+# 🏆 Final Project & Portfolio
+
+The Final Project & Portfolio is **completed**.
+
+The canonical version of the final project, organized according to the
+assignment's required deliverable sections, is stored in:
+
+`docs/Final Project/`
+
+```text
+docs/Final Project/
+├── 01_Project_Charter/
+├── 02_Data/
+│   ├── Raw_Dataset/
+│   └── Clean_Dataset/
+├── 03_Data_Cleaning/
+├── 04_Analysis/
+├── 05_Business_Analysis/
+├── 06_Dashboard/
+├── 07_Report/
+├── 08_Presentation/
+└── 09_Portfolio/
+```
+
+This structure is the canonical reference for the final project. The raw dataset
+and the cleaned dataset are kept as separate sections, so the original data is
+preserved and never modified — consistent with the dataset rules in
+`docs/Style-Guide.md`.
+
+The weekly project folders `docs/Week-11 Final Project/` and
+`docs/Week-12 Final Project/` are preserved as the historical weekly
+deliverables of the same project. `docs/Final Project/` is the canonical
+structure; the two week folders record how the project was delivered at the time.
 
 ---
 
 # 📁 Deliverables
 
-By the end of the program, this repository will contain:
+This repository contains:
 
 - Python Notebooks
 - SQL Scripts
 - Cleaned Datasets
 - Exploratory Data Analysis Reports
-- Business Insight Reports
-- Dashboards
+- Business Insight & Root Cause Analysis Reports
+- Excel Dashboards
 - Presentation Slides
 - Documentation
-- Final End-to-End Data Analysis Project
+- Completed End-to-End Data Analysis Project
+
+As the program continues, further analysis, documentation, and portfolio
+refinement are still to be added.
 
 ---
 
@@ -189,14 +297,15 @@ By the end of the program, this repository will contain:
 - [x] Repository Initialization
 - [x] Project Documentation
 - [x] GitHub Repository Setup
-- [x] Week 1 Completed
-- [x] Week 2 Completed
-- [ ] Week 3 Data Cleaning
-- [ ] Week 4 Exploratory Data Analysis
-- [ ] Week 5 Business Problem Solving
-- [ ] Week 6 Reporting & Storytelling
-- [ ] Week 7 Final Project
-- [ ] Week 8 Final Presentation
+- [x] Data Collection & Understanding
+- [x] SQL & Database Fundamentals
+- [x] Data Cleaning & Preparation
+- [x] Exploratory Data Analysis
+- [x] Problem Solving & Business Questions
+- [x] Business Recommendation
+- [x] Industry Simulation
+- [x] **Final Project & Portfolio**
+- [x] Final Project organized into the canonical assignment structure
 
 ---
 
@@ -213,13 +322,23 @@ After completing this Industry Simulation Program, I plan to continue learning:
 
 ---
 
-# 📚 References
+# 📚 Documentation & References
 
-Official references and learning resources used throughout this program are available in:
+All project documentation is stored in `docs/`.
 
-```text
-docs/references.md
-```
+| Document | Purpose |
+|----------|---------|
+| `docs/Roadmap.md` | Learning roadmap, week-by-week objectives and deliverables |
+| `docs/Workflow.md` | The 12-stage data analysis workflow used in every project |
+| `docs/Project Structure.md` | Intended directory structure and project conventions |
+| `docs/Style-Guide.md` | Coding, naming, notebook, visualization, and Git standards |
+| `docs/References.md` | Official documentation, dataset sources, books, and tools |
+| `docs/learning-journal.md` | Weekly learning journal and reflections |
+
+> **Note.** `docs/Project Structure.md` still describes the originally planned
+> directory layout, which differs from the layout used in practice. The structure
+> actually used is the one shown in
+> [Repository Structure](#-repository-structure) above.
 
 ---
 
