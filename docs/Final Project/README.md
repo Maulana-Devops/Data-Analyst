@@ -45,11 +45,11 @@ The analytical objective of this project is to:
 | Clean dataset | `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` |
 | Raw shape | 18,868 × 19 |
 | Clean shape | 18,868 × 30 |
-| License | Not recorded in this repository. |
+| License | CC0: Public Domain, as shown on the Kaggle dataset page recorded in section 4.1. |
 | Version | Not recorded in this repository. |
 | Publication date | Not recorded in this repository. |
 | Access date | Not recorded in this repository. |
-| Dataset author | Not recorded in this repository. The only representation of the uploader in this repository is the `zkyfauzi` account in the Kaggle dataset URL above. |
+| Dataset author | Not recorded in this repository. The uploader is shown as `ZkyFauzi` on the Kaggle dataset page recorded in section 4.1, matching the `zkyfauzi` account in the dataset URL above. |
 
 Row and column counts above were verified directly against the two CSV files in
 this repository.
@@ -59,20 +59,83 @@ this repository.
 ## 4. Dataset Evidence
 
 This section records the evidence used to support the dataset facts stated above.
+The evidence images below are grouped by where they come from:
 
-### 4.1 Evidence currently available in this repository
+- **Source evidence** — the published dataset page on Kaggle.
+- **Dataset evidence** — the CSV files and directory structure in this repository.
+- **Report-derived evidence** — pages cropped from the Final Project PDF reports
+  that are already in this repository.
 
-| # | Evidence | Location | Status |
-|---|----------|----------|--------|
-| 1 | Dataset source page on Kaggle | https://www.kaggle.com/datasets/zkyfauzi/indonesia-ecommerce-sales | URL reachable (HTTP 200); not captured as an image |
-| 2 | Raw dataset file | `02_Data/Raw_Dataset/22_Raw_Dataset.csv` | Present — 18,868 rows × 19 columns, delimiter `;` |
-| 3 | Clean dataset file | `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` | Present — 18,868 rows × 30 columns, delimiter `;` |
-| 4 | Structure change between raw and clean | Column comparison of the two files | 11 columns added, 0 columns removed |
-| 5 | Cleaning record | `03_Data_Cleaning/10_Data_Cleaning_Log.xlsx` | Present |
-| 6 | EDA notebook | `04_Analysis/02_EDA_Notebook.ipynb` | Present — 30 cells |
-| 7 | Per-dimension analysis outputs | `04_Analysis/` (11 files) | Present |
+All six images are real captures. None is a mockup, placeholder, or recreated
+page, and no project file was altered to produce them.
 
-### 4.2 Columns added between the raw and clean dataset
+### 4.1 Kaggle Dataset Source
+
+*Source evidence.* A capture of the live Kaggle page for the dataset URL given in
+section 3. It shows the dataset title **Indonesia E-Commerce Sales**, the uploader
+account, the About Dataset and Data Dictionary sections, the published structure
+summary, and the license shown on that page. The page also carries a notice that
+the dataset was synthetically generated — see section 11.
+
+The page was loaded and captured directly; it was not rebuilt locally.
+
+![Kaggle Dataset Source](00_Evidence/01_Kaggle_Dataset_Source.png)
+
+### 4.2 Raw Dataset
+
+*Dataset evidence.* Rendered from `02_Data/Raw_Dataset/22_Raw_Dataset.csv`. It shows
+the file name, its path in the repository, the verified shape of **18,868 rows ×
+19 columns**, the delimiter, all 19 column names, and the first few sample records
+reproduced verbatim. The CSV itself was not modified.
+
+![Raw Dataset](00_Evidence/02_Raw_Dataset.png)
+
+### 4.3 Clean Dataset
+
+*Dataset evidence.* Rendered from `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv`.
+It shows the file name, its path, the verified shape of **18,868 rows × 30 columns**,
+all 30 column names, and sample records reproduced verbatim. The row count is
+identical to the raw dataset, and the columns are additive. The CSV itself was not
+modified.
+
+![Clean Dataset](00_Evidence/03_Clean_Dataset.png)
+
+### 4.4 Final Project Structure
+
+*Repository evidence.* The actual directory listing of `docs/Final Project/`, showing
+the nine top-level sections and the files inside them with their sizes. Nothing was
+renamed or reorganised for presentation.
+
+![Final Project Structure](00_Evidence/04_Final_Project_Structure.png)
+
+### 4.5 Data Overview
+
+*Report-derived evidence.* Cropped from section **"2. Dataset & Analytical Scope"**
+of `04_Analysis/03_EDA_Report.pdf`, a report already in this repository. It is a
+page capture of that report, **not** a dashboard. It shows the reported scope:
+18,868 rows, 30 columns, the period 2023-12-01 to 2025-11-30, 34 provinces, 640
+product categories, 18,868 total orders, and 47,688 total quantity.
+
+![Data Overview](00_Evidence/05_Data_Overview.png)
+
+### 4.6 KPI Evidence
+
+*Report-derived evidence.* Cropped from section **"5. KPI Summary"** of
+`07_Report/07_Final_Analysis_Report.pdf`. It is a page capture of that report,
+**not** a dashboard. It shows the reported values: revenue Rp962,091,801, 18,868
+orders, 47,688 quantity, AOV Rp50,991, total discount Rp8,004,196, returned quantity
+353, 2,573 cancelled orders, 13.64% cancellation rate, 143 returned orders, 0.76%
+return rate, and profit marked as not available.
+
+Every figure visible here was independently recalculated from
+`02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` and matches, as recorded in
+section 7.1. The two sources are therefore mutually corroborating: the figures come
+from the project's own report, and the same figures were reproduced from the dataset
+itself.
+
+![KPI Evidence](00_Evidence/06_KPI_Evidence.png)
+
+### 4.7 Columns added between the raw and clean dataset
 
 | Added column | Purpose indicated by name |
 |--------------|---------------------------|
@@ -88,30 +151,16 @@ This section records the evidence used to support the dataset facts stated above
 | `Is_Cancelled` | Cancellation flag |
 | `Is_Returned` | Return flag |
 
-### 4.3 Screenshots
+### 4.8 Other evidence available in this repository
 
-**No screenshot image files are embedded in this README, because none exist in
-this repository.** There is currently no `images/`, `screenshots/`, or
-`evidence/` directory inside `docs/Final Project/`, and no `.png`, `.jpg`, or
-`.svg` file anywhere in the Final Project folder.
-
-No placeholder or mock image has been used, and no image has been generated to
-stand in for real evidence.
-
-The following evidence items are identified but **not yet captured**:
-
-| # | Screenshot to capture | Intended purpose |
-|---|-----------------------|------------------|
-| 1 | Kaggle dataset page for the URL above | Show dataset title and source platform |
-| 2 | Kaggle dataset file listing | Show the original file name and size as published |
-| 3 | Repository view of `22_Raw_Dataset.csv` | Show the raw file and its 19 columns |
-| 4 | Repository view of `23_Final_Clean_Dataset.csv` | Show the clean file and its 30 columns |
-| 5 | Column comparison of raw versus clean | Show the 11 derived columns |
-| 6 | `10_Data_Cleaning_Log.xlsx` | Show the recorded cleaning steps |
-
-Capturing these requires adding image files and a directory for them. That is
-outside the file-scope of this documentation task, so the requirement is recorded
-here rather than filled with unverified images.
+| Evidence | Location | Status |
+|----------|----------|--------|
+| Cleaning record | `03_Data_Cleaning/10_Data_Cleaning_Log.xlsx` | Present — 2 worksheets |
+| EDA notebook | `04_Analysis/02_EDA_Notebook.ipynb` | Present — 30 cells |
+| Per-dimension analysis outputs | `04_Analysis/` | Present — 11 files |
+| Root cause analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` | Present |
+| Recommendations | `05_Business_Analysis/05_Recommendation.xlsx` | Present |
+| Dashboard | `06_Dashboard/06_Final_Dashboard.xlsx` | Present — 12 worksheets |
 
 ---
 
@@ -278,6 +327,11 @@ All paths below were verified to exist in this repository.
 
 ## 11. Limitations
 
+- **The dataset is synthetically generated.** The Kaggle source page carries a
+  notice stating that the dataset was synthetically generated and may not reflect
+  real-world data, and the About Dataset section describes it as practice data with
+  injected preprocessing challenges. This evidence is recorded in section 4.1, and
+  it means the findings describe this dataset rather than observed market behaviour.
 - **Profit is unavailable.** There is no profit column in the dataset, so this
   project cannot report margin or profitability.
 - **Customer-level information is unavailable.** There is no customer identifier
@@ -320,7 +374,7 @@ portfolio purposes.
 | Analysis outputs | Complete — 11 files in `04_Analysis/` |
 | Business analysis | Complete — root cause analysis and recommendations |
 | Dashboard, report, presentation, portfolio | Complete |
-| Dataset screenshots | **Not captured** — see section 4.3 |
+| Dataset screenshots | Captured — 6 evidence images, see section 4 |
 
 The Indonesia E-Commerce Sales dataset applies to `docs/Final Project/` only. It
 is not used in the weekly project folders of this repository.
