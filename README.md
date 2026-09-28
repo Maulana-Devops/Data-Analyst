@@ -330,15 +330,15 @@ All project documentation is stored in `docs/`.
 |----------|---------|
 | `docs/Roadmap.md` | Learning roadmap, week-by-week objectives and deliverables |
 | `docs/Workflow.md` | The 12-stage data analysis workflow used in every project |
-| `docs/Project Structure.md` | Intended directory structure and project conventions |
+| `docs/Project Structure.md` | Actual repository structure, canonical final project structure, and project conventions |
 | `docs/Style-Guide.md` | Coding, naming, notebook, visualization, and Git standards |
 | `docs/References.md` | Official documentation, dataset sources, books, and tools |
 | `docs/learning-journal.md` | Weekly learning journal and reflections |
 
-> **Note.** `docs/Project Structure.md` still describes the originally planned
-> directory layout, which differs from the layout used in practice. The structure
-> actually used is the one shown in
-> [Repository Structure](#-repository-structure) above.
+> **Note.** `docs/Project Structure.md` distinguishes the actual repository
+> structure, the canonical final project structure, and the historical/planned
+> structure. The actual repository layout is also summarized in the
+> [Repository Structure](#-repository-structure) section above.
 
 ---
 

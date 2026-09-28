@@ -22,15 +22,34 @@ This learning journal helps me to:
 # 📊 Progress Tracker
 
 | Week | Topic | Status |
-|------|-------------------------------|--------|
-| 1 | Industry Orientation & Setup Tools | ✅ Completed |
+|------|-------------------------------------|----------------|
+| 1 | Industry Orientation & Setup | 📁 Not in repo |
 | 2 | Data Collection & Understanding | ✅ Completed |
-| 3 | Data Cleaning & Preparation | 🚧 In Progress |
-| 4 | Exploratory Data Analysis | ⏳ Upcoming |
-| 5 | Business Problem Solving | ⏳ Upcoming |
-| 6 | Reporting & Data Storytelling | ⏳ Upcoming |
-| 7 | Final Project & Portfolio | ⏳ Upcoming |
-| 8 | Final Presentation & Evaluation | ⏳ Upcoming |
+| 3 | — | 📁 Not in repo |
+| 4 | SQL & Database Fundamentals | ✅ Completed |
+| 5 | Data Cleaning & Preparation | ✅ Completed |
+| 6 | EDA Fundamentals | ✅ Completed |
+| 7 | Advanced EDA | ✅ Completed |
+| 8 | Problem Solving & Business Questions | ✅ Completed |
+| 9 | Solution & Business Recommendation | ✅ Completed |
+| 10 | Industry Simulation | ✅ Completed |
+| 11 | Final Project & Portfolio | ✅ Completed |
+| 12 | Final Project (Continuation) | ✅ Completed |
+| — | Canonical Final Project Structure | ✅ Completed |
+
+This table is based on the evidence available in the repository, verified on
+28 September 2026. The status of each week reflects the presence and content of
+its corresponding folder in this repository.
+
+Notes:
+
+- Week 1 and Week 3 have no folder that can be verified in this repository, so
+  they are not given a completion status.
+- Week 11 and Week 12 are historical weekly deliverables kept in their original
+  weekly folders.
+- `docs/Final Project/` is the canonical final project structure. It holds the
+  current, consolidated version of the final project and portfolio, while the
+  Week 11 and Week 12 folders remain as the historical weekly record.
 
 ---
 
@@ -200,16 +219,27 @@ Example:
 
 # 📅 Weekly Summary
 
-| Week | Completed | Reflection |
-|------|-----------|------------|
-| 1 | ✅ | Completed Industry Orientation and Python setup. |
-| 2 | ✅ | Learned dataset collection and understanding. |
-| 3 | 🚧 | Currently working on Data Cleaning and Preparation. |
-| 4 | ⏳ | - |
-| 5 | ⏳ | - |
-| 6 | ⏳ | - |
-| 7 | ⏳ | - |
-| 8 | ⏳ | - |
+| Week | Status | Summary |
+|------|--------------|------------------------------------------------------------|
+| 1 | 📁 Not in repo | No Week 1 folder is present in the repository. |
+| 2 | ✅ | Data Collection & Understanding |
+| 3 | 📁 Not in repo | No Week 3 folder is present in the repository. |
+| 4 | ✅ | SQL & Database Fundamentals |
+| 5 | ✅ | Data Cleaning & Preparation |
+| 6 | ✅ | EDA Fundamentals |
+| 7 | ✅ | Advanced EDA |
+| 8 | ✅ | Problem Solving & Business Questions |
+| 9 | ✅ | Solution & Business Recommendation |
+| 10 | ✅ | Industry Simulation |
+| 11 | ✅ | Final Project & Portfolio — historical weekly deliverables |
+| 12 | ✅ | Final Project continuation — historical weekly deliverables |
+| Final Project | ✅ | Canonical final project structure and portfolio deliverables |
+
+The summaries above state only what is verifiable from the folders in this
+repository. Week-level learning notes, activities, mentor feedback, and personal
+reflections are not summarised here, because they are not yet documented in this
+file for those weeks. They can be added progressively using the Weekly Journal
+Template below, once the actual notes for each week are available.
 
 ---
 
@@ -232,4 +262,18 @@ Areas of continuous improvement include:
 
 # 📌 Final Reflection
 
-At the end of this Industry Simulation Program, this journal will serve as a complete record of my learning journey, documenting how I developed from a beginner into a Junior Data Analyst capable of solving business problems through data.
+This journal serves as a record of my learning journey and as the documentation
+of the Industry Simulation Program. It records how I developed from a beginner
+into a Junior Data Analyst who is able to work through data problems as part of
+a business context.
+
+The repository now records work through Week 12, together with a completed Final
+Project in `docs/Final Project/`. The analytical project itself is therefore
+recorded as finished, and the deliverables of the final project and portfolio are
+available for review.
+
+This does not make the journal a closed document. The personal reflection can
+still be updated whenever there is a new experience, a new learning, or a
+correction worth recording, and the weekly notes can still be expanded for the
+weeks that are not yet written up. Progress and status tables should be kept in
+line with the actual contents of the repository.
