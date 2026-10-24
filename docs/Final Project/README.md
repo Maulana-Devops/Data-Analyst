@@ -159,9 +159,9 @@ itself.
 | Cleaning record | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | Present — 2 worksheets |
 | EDA notebook | `04_Analysis/EDA_Notebook.ipynb` | Present — 30 cells |
 | Per-dimension analysis outputs | `04_Analysis/` | Present — 11 files |
-| Root cause analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` | Present |
-| Recommendations | `05_Business_Analysis/05_Recommendation.xlsx` | Present |
-| Dashboard | `06_Dashboard/06_Final_Dashboard.xlsx` | Present — 8 worksheets |
+| Root cause analysis | `05_Business_Analysis/Root_Cause_Analysis.pdf` | Present |
+| Recommendations | `05_Business_Analysis/Recommendation.xlsx` | Present |
+| Dashboard | `06_Dashboard/Final_Dashboard.xlsx` | Present — 8 worksheets |
 
 Note: the EDA notebook (`04_Analysis/EDA_Notebook.ipynb`, 30 cells) contains no
 visualization cells. The project's charts are delivered through the reports, the
@@ -275,20 +275,20 @@ by the output files present in `04_Analysis/`.
 
 | Area | Output file |
 |------|-------------|
-| Revenue, orders, average order value | `04_Analysis/11_Revenue_Order_AOV_Analysis.csv` |
-| Monthly sales performance | `04_Analysis/12_Monthly_Sales_Performance.csv` |
-| Calendar completeness check | `04_Analysis/13_Calendar_Completeness_Check.csv` |
-| Product category performance | `04_Analysis/14_Product_Category_Performance.csv` |
-| Top 10 product categories | `04_Analysis/15_Top10_Product_Category.csv` |
-| Payment method performance | `04_Analysis/16_Payment_Method_Performance.xlsx` |
-| Regional and province performance | `04_Analysis/17_Regional_Province_Performance.xlsx` |
-| Quantity and order value | `04_Analysis/18_Quantity_Order_Value_Analysis.xlsx` |
-| Cancellation and return | `04_Analysis/19_Cancellation_Return_Analysis.xlsx` |
-| Discount and transaction value | `04_Analysis/20_Discount_Transaction_Value_Analysis.xlsx` |
-| Shipping performance | `04_Analysis/21_Shipping_Performance_Analysis.xlsx` |
+| Revenue, orders, average order value | `04_Analysis/Supporting_Outputs/11_Revenue_Order_AOV_Analysis.csv` |
+| Monthly sales performance | `04_Analysis/Supporting_Outputs/12_Monthly_Sales_Performance.csv` |
+| Calendar completeness check | `04_Analysis/Supporting_Outputs/13_Calendar_Completeness_Check.csv` |
+| Product category performance | `04_Analysis/Supporting_Outputs/14_Product_Category_Performance.csv` |
+| Top 10 product categories | `04_Analysis/Supporting_Outputs/15_Top10_Product_Category.csv` |
+| Payment method performance | `04_Analysis/Supporting_Outputs/16_Payment_Method_Performance.xlsx` |
+| Regional and province performance | `04_Analysis/Supporting_Outputs/17_Regional_Province_Performance.xlsx` |
+| Quantity and order value | `04_Analysis/Supporting_Outputs/18_Quantity_Order_Value_Analysis.xlsx` |
+| Cancellation and return | `04_Analysis/Supporting_Outputs/19_Cancellation_Return_Analysis.xlsx` |
+| Discount and transaction value | `04_Analysis/Supporting_Outputs/20_Discount_Transaction_Value_Analysis.xlsx` |
+| Shipping performance | `04_Analysis/Supporting_Outputs/21_Shipping_Performance_Analysis.xlsx` |
 | Exploratory data analysis | `04_Analysis/EDA_Notebook.ipynb`, `04_Analysis/EDA_Report.pdf` |
-| Root cause analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` |
-| Recommendations | `05_Business_Analysis/05_Recommendation.xlsx` |
+| Root cause analysis | `05_Business_Analysis/Root_Cause_Analysis.pdf` |
+| Recommendations | `05_Business_Analysis/Recommendation.xlsx` |
 
 This README describes the scope of the analysis only. It does not restate
 individual analytical findings; those are documented in the report, root cause
@@ -306,7 +306,7 @@ Listed only where project or repository evidence supports actual use.
 | Pandas | Imported in `04_Analysis/EDA_Notebook.ipynb` |
 | NumPy | Imported in `04_Analysis/EDA_Notebook.ipynb` |
 | Jupyter Notebook | `04_Analysis/EDA_Notebook.ipynb` (30 cells) |
-| Microsoft Excel | 9 `.xlsx` deliverables in `02_Data`…`06_Dashboard`, including `06_Dashboard/06_Final_Dashboard.xlsx` (8 sheets) |
+| Microsoft Excel | 9 `.xlsx` deliverables in `02_Data`…`06_Dashboard`, including `06_Dashboard/Final_Dashboard.xlsx` (8 sheets) |
 | Git / GitHub | Repository history and directory structure of `docs/Final Project/` |
 
 Additional data libraries are not listed here because no import of them appears
@@ -333,7 +333,7 @@ All paths below were verified to exist in this repository.
 | Dashboard | `06_Dashboard/Final_Dashboard.xlsx` | 8 sheets |
 | Report | `07_Report/Final_Analysis_Report.pdf` | PDF |
 | Presentation | `08_Presentation/Final_Presentation.pptx` | 50 KB |
-| Portfolio | `09_Portfolio/09_Portfolio_Project.pdf` | PDF |
+| Portfolio | `09_Portfolio/Portfolio_Project.pdf` | PDF |
 | Technical documentation | [10_Technical_Documentation/kpi-and-aggregation-contract.md](10_Technical_Documentation/kpi-and-aggregation-contract.md) | KPI & aggregation contract (Markdown) |
 | Technical documentation | [10_Technical_Documentation/data-dictionary-and-methodology.md](10_Technical_Documentation/data-dictionary-and-methodology.md) | Data dictionary & methodology (Markdown) |
 | Technical documentation | [10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md](10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md) | Dashboard architecture, QA & reproducibility (Markdown) |

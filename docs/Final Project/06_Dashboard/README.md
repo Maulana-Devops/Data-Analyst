@@ -7,8 +7,7 @@ This folder contains the dashboard deliverables.
 ```
 06_Dashboard/
 ├── Final_Dashboard.xlsx       # Excel dashboard (8 worksheets)
-├── README.md                  # This file
-└── screenshots/               # Streamlit screenshots for portfolio
+└── README.md                  # This file
 ```
 
 ## Deliverables
@@ -32,8 +31,8 @@ To run:
 
 ```bash
 cd dashboard
-pip install -r requirements.txt
-streamlit run src/main.py
+pip install -r requirements-dashboard.txt
+streamlit run app.py
 ```
 
 **Note:** The Excel dashboard is the primary deliverable. The Streamlit dashboard is supplementary for demonstration purposes.

@@ -1,26 +1,21 @@
 # Dashboard Architecture, QA & Reproducibility
 
 **Project:** Data Analyst Final Project — Streamlit dashboard
-**Status:** Technical reference. Code structure, dependencies, commands, and test
-results were re-verified against the working tree on 2026-10-10. Items that were
-verified during the earlier QA round (Phase 2C) but not re-executed in this phase are
-explicitly labeled **"per prior QA report"**.
+**Status:** Technical reference. Code structure, dependencies, commands.
+Last updated: 2026-10-24 (dashboard has been committed and merged to main).
 
 ---
 
-## 1. Repository state (verified 2026-10-10)
+## 1. Repository state (verified 2026-10-24)
 
 | Item | Value |
 |---|---|
 | Branch | `main` |
-| HEAD | `b15cfeed6d4a502e1bebfaea54d265648540fd94` |
-| Working tree | clean except untracked `dashboard/` (`?? dashboard/`) |
-| Staged changes | none |
-| Remote `origin` | `git@github.com:Maulana-Devops/Data-Analyst.git` (configured) |
-| Published on GitHub in this project phase? | **No.** A remote is configured, but this task performed no add/commit/push; whether the new dashboard/README has been pushed is **not verified here** and must not be inferred. |
+| HEAD | `694b879` (latest merged commit) |
+| Remote `origin` | `git@github.com:Maulana-Devops/Data-Analyst.git` |
+| Dashboard status | **Published** - merged to main on 2026-10-24 |
 
-No Git staging, commit, push, or reset was performed. The dashboard is **not published**
-by this phase.
+The dashboard has been successfully committed and merged to main branch.
 
 ---
 
