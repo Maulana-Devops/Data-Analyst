@@ -113,8 +113,8 @@ The **Indonesia E-Commerce Sales** dataset is the dataset used for the repositor
 - Uploader: ZkyFauzi
 - License: CC0: Public Domain
 - URL: https://www.kaggle.com/datasets/zkyfauzi/indonesia-ecommerce-sales
-- Raw repository file: `docs/Final Project/02_Data/Raw_Dataset/22_Raw_Dataset.csv`
-- Clean repository file: `docs/Final Project/02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv`
+- Raw repository file: `docs/Final Project/02_Data/Raw_Dataset/Raw_Dataset.csv`
+- Clean repository file: `docs/Final Project/02_Data/Clean_Dataset/Clean_Dataset.csv`
 - Raw shape: 18,868 rows × 19 columns
 - Clean shape: 18,868 rows × 30 columns
 

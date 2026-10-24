@@ -1,0 +1,5 @@
+# Phase 1 dependencies for the Data Analyst dashboard.
+# Python 3.12 compatible. Install into dashboard/.venv only.
+streamlit==1.65.0
+pandas==2.3.3
+plotly==6.9.0

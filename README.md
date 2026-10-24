@@ -92,6 +92,7 @@ Data-Analyst/
 ├── License.mit
 ├── .gitignore
 ├── requirements.txt
+├── dashboard/             ← Streamlit interactive dashboard
 │
 └── docs/
     ├── Roadmap.md
@@ -258,7 +259,8 @@ docs/Final Project/
 ├── 06_Dashboard/
 ├── 07_Report/
 ├── 08_Presentation/
-└── 09_Portfolio/
+├── 09_Portfolio/
+└── 10_Technical_Documentation/
 ```
 
 This structure is the canonical reference for the final project. The raw dataset
@@ -273,6 +275,30 @@ structure; the two week folders record how the project was delivered at the time
 
 ---
 
+# 🖥️ Interactive Dashboard (Streamlit)
+
+The Final Project also includes an interactive Web dashboard built with Streamlit,
+Plotly, and Pandas, located in [`dashboard/`](dashboard/).
+
+- **Entry point:** `dashboard/app.py`
+- **Pages:** Executive Overview, Product & Regional, Payment & Discount,
+  Order & Operations, Shipping & Data Quality
+- **Dependencies:** pinned in `dashboard/requirements-dashboard.txt`, isolated from
+  the repository-wide `requirements.txt`
+
+Technical reference documents for the dashboard and its dataset are in
+[`docs/Final Project/10_Technical_Documentation/`](docs/Final%20Project/10_Technical_Documentation/):
+
+- [KPI & Aggregation Contract](docs/Final%20Project/10_Technical_Documentation/kpi-and-aggregation-contract.md)
+- [Data Dictionary & Methodology](docs/Final%20Project/10_Technical_Documentation/data-dictionary-and-methodology.md)
+- [Dashboard Architecture, QA & Reproducibility](docs/Final%20Project/10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md)
+
+> These documents are working technical references. They do not imply that the
+> dashboard or the documentation is committed or published; Git status is recorded
+> separately in the architecture document.
+
+---
+
 # 📁 Deliverables
 
 This repository contains:
@@ -283,6 +309,7 @@ This repository contains:
 - Exploratory Data Analysis Reports
 - Business Insight & Root Cause Analysis Reports
 - Excel Dashboards
+- Interactive Data Dashboard (Streamlit) — see `dashboard/`
 - Presentation Slides
 - Documentation
 - Completed End-to-End Data Analysis Project
@@ -306,6 +333,14 @@ refinement are still to be added.
 - [x] Industry Simulation
 - [x] **Final Project & Portfolio**
 - [x] Final Project organized into the canonical assignment structure
+
+> **Note on completion.** Marking the Final Project as complete reflects that the
+> assignment deliverables exist in this repository. It does not imply that every
+> consistency, publication, or final-report decision is closed: several legacy
+> inconsistencies (payment/status groupings, return-rate definition, reported
+> column count, and the coexistence of the Excel and Streamlit dashboards) remain
+> open and are tracked in the
+> [KPI & Aggregation Contract](docs/Final%20Project/10_Technical_Documentation/kpi-and-aggregation-contract.md#known-inconsistencies-and-decisions-pending).
 
 ---
 
@@ -334,6 +369,8 @@ All project documentation is stored in `docs/`.
 | `docs/Style-Guide.md` | Coding, naming, notebook, visualization, and Git standards |
 | `docs/References.md` | Official documentation, dataset sources, books, and tools |
 | `docs/learning-journal.md` | Weekly learning journal and reflections |
+| `docs/Final Project/README.md` | Final Project dataset, metrics, deliverables, and limitations |
+| `docs/Final Project/10_Technical_Documentation/` | Verified technical references — KPI & aggregation contract, data dictionary & methodology, dashboard architecture/QA/reproducibility |
 
 > **Note.** `docs/Project Structure.md` distinguishes the actual repository
 > structure, the canonical final project structure, and the historical/planned
