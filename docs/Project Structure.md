@@ -501,7 +501,7 @@ conventions.
 | Folder | `Project 1/`, `Project-10/`, `Day-1/`, `Day-3 Standarasi data/` |
 | Notebook | `Data-understanding.ipynb`, `Tugas_week_6.ipynb`, `Tugas_Week_7.ipynb` |
 | Notebook | `Analysis Notebook.ipynb`, `Part8_SQL.ipynb`, `Pengenalan_Data_Cleaning.ipynb` |
-| Dataset | `22_Raw_Dataset.csv`, `23_Final_Clean_Dataset.csv`, `100000 Sales Records.csv` |
+| Dataset | `Raw_Dataset.csv`, `Clean_Dataset.csv`, `100000 Sales Records.csv` |
 | Dataset | `Clean Dataset v1.csv`, `Clean Dataset v2.csv`, `Final Clean Dataset.csv` |
 | SQL | `queries.sql`, `query.sql` |
 | Report | `03_EDA_Report.pdf`, `04_Root_Cause_Analysis.pdf` |

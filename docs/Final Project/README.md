@@ -41,11 +41,11 @@ The analytical objective of this project is to:
 | Source | Kaggle |
 | Dataset URL | https://www.kaggle.com/datasets/zkyfauzi/indonesia-ecommerce-sales |
 | Usage | Final Project only |
-| Raw dataset | `02_Data/Raw_Dataset/22_Raw_Dataset.csv` |
-| Clean dataset | `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` |
+| Raw dataset | `02_Data/Raw_Dataset/Raw_Dataset.csv` |
+| Clean dataset | `02_Data/Clean_Dataset/Clean_Dataset.csv` |
 | Raw shape | 18,868 × 19 |
 | Clean shape | 18,868 × 30 |
-| License | CC0: Public Domain, as shown on the Kaggle dataset page recorded in section 4.1. |
+| License | CC0: Public Domain, as recorded in the repository's `docs/References.md` (dataset sources section). Independent confirmation on the current live Kaggle page is pending. |
 | Version | Not recorded in this repository. |
 | Publication date | Not recorded in this repository. |
 | Access date | Not recorded in this repository. |
@@ -83,7 +83,7 @@ The page was loaded and captured directly; it was not rebuilt locally.
 
 ### 4.2 Raw Dataset
 
-*Dataset evidence.* Rendered from `02_Data/Raw_Dataset/22_Raw_Dataset.csv`. It shows
+*Dataset evidence.* Rendered from `02_Data/Raw_Dataset/Raw_Dataset.csv`. It shows
 the file name, its path in the repository, the verified shape of **18,868 rows ×
 19 columns**, the delimiter, all 19 column names, and the first few sample records
 reproduced verbatim. The CSV itself was not modified.
@@ -92,7 +92,7 @@ reproduced verbatim. The CSV itself was not modified.
 
 ### 4.3 Clean Dataset
 
-*Dataset evidence.* Rendered from `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv`.
+*Dataset evidence.* Rendered from `02_Data/Clean_Dataset/Clean_Dataset.csv`.
 It shows the file name, its path, the verified shape of **18,868 rows × 30 columns**,
 all 30 column names, and sample records reproduced verbatim. The row count is
 identical to the raw dataset, and the columns are additive. The CSV itself was not
@@ -103,7 +103,8 @@ modified.
 ### 4.4 Final Project Structure
 
 *Repository evidence.* The actual directory listing of `docs/Final Project/`, showing
-the nine top-level sections and the files inside them with their sizes. Nothing was
+the top-level project sections and the files inside them with their sizes. (The
+captured listing predates the addition of `10_Technical_Documentation/`.) Nothing was
 renamed or reorganised for presentation.
 
 ![Final Project Structure](00_Evidence/04_Final_Project_Structure.png)
@@ -111,7 +112,7 @@ renamed or reorganised for presentation.
 ### 4.5 Data Overview
 
 *Report-derived evidence.* Cropped from section **"2. Dataset & Analytical Scope"**
-of `04_Analysis/03_EDA_Report.pdf`, a report already in this repository. It is a
+of `04_Analysis/EDA_Report.pdf`, a report already in this repository. It is a
 page capture of that report, **not** a dashboard. It shows the reported scope:
 18,868 rows, 30 columns, the period 2023-12-01 to 2025-11-30, 34 provinces, 640
 product categories, 18,868 total orders, and 47,688 total quantity.
@@ -128,7 +129,7 @@ orders, 47,688 quantity, AOV Rp50,991, total discount Rp8,004,196, returned quan
 return rate, and profit marked as not available.
 
 Every figure visible here was independently recalculated from
-`02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` and matches, as recorded in
+`02_Data/Clean_Dataset/Clean_Dataset.csv` and matches, as recorded in
 section 7.1. The two sources are therefore mutually corroborating: the figures come
 from the project's own report, and the same figures were reproduced from the dataset
 itself.
@@ -155,12 +156,17 @@ itself.
 
 | Evidence | Location | Status |
 |----------|----------|--------|
-| Cleaning record | `03_Data_Cleaning/10_Data_Cleaning_Log.xlsx` | Present — 2 worksheets |
-| EDA notebook | `04_Analysis/02_EDA_Notebook.ipynb` | Present — 30 cells |
+| Cleaning record | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | Present — 2 worksheets |
+| EDA notebook | `04_Analysis/EDA_Notebook.ipynb` | Present — 30 cells |
 | Per-dimension analysis outputs | `04_Analysis/` | Present — 11 files |
 | Root cause analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` | Present |
 | Recommendations | `05_Business_Analysis/05_Recommendation.xlsx` | Present |
-| Dashboard | `06_Dashboard/06_Final_Dashboard.xlsx` | Present — 12 worksheets |
+| Dashboard | `06_Dashboard/06_Final_Dashboard.xlsx` | Present — 8 worksheets |
+
+Note: the EDA notebook (`04_Analysis/EDA_Notebook.ipynb`, 30 cells) contains no
+visualization cells. The project's charts are delivered through the reports, the
+Excel dashboard, and the interactive Streamlit dashboard (§10.1), not as notebook
+outputs.
 
 ---
 
@@ -180,7 +186,8 @@ docs/Final Project/
 ├── 06_Dashboard/
 ├── 07_Report/
 ├── 08_Presentation/
-└── 09_Portfolio/
+├── 09_Portfolio/
+└── 10_Technical_Documentation/   ← technical references (see §10)
 ```
 
 ---
@@ -191,9 +198,9 @@ The project keeps the original data and the prepared data in separate sections.
 
 | Stage | Location | Output |
 |-------|----------|--------|
-| Raw dataset | `02_Data/Raw_Dataset/22_Raw_Dataset.csv` | Original file, 18,868 rows × 19 columns |
-| Data preparation | `03_Data_Cleaning/10_Data_Cleaning_Log.xlsx` | 2 worksheets recording the preparation steps |
-| Clean dataset | `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` | 18,868 rows × 30 columns |
+| Raw dataset | `02_Data/Raw_Dataset/Raw_Dataset.csv` | Original file, 18,868 rows × 19 columns |
+| Data preparation | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | 2 worksheets recording the preparation steps |
+| Clean dataset | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 rows × 30 columns |
 
 Key properties of the preparation, verified by comparing the two files:
 
@@ -205,7 +212,7 @@ Key properties of the preparation, verified by comparing the two files:
   cancellation/return flags, as listed in section 4.2.
 
 The specific operations applied inside the preparation step are recorded in
-`03_Data_Cleaning/10_Data_Cleaning_Log.xlsx`. No cleaning operation is claimed in
+`03_Data_Cleaning/Data_Cleaning_Log.xlsx`. No cleaning operation is claimed in
 this README beyond what that log and the column comparison above show.
 
 ---
@@ -215,7 +222,7 @@ this README beyond what that log and the column comparison above show.
 ### 7.1 Calculated and verified metrics
 
 Each value below was recalculated directly from
-`02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv`.
+`02_Data/Clean_Dataset/Clean_Dataset.csv`.
 
 | Metric | Value | Basis |
 |--------|-------|-------|
@@ -226,10 +233,15 @@ Each value below was recalculated directly from
 | Cancelled orders | 2,573 | Rows where `Is_Cancelled` is true |
 | Cancellation rate | 13.64% | 2,573 ÷ 18,868 |
 | Returned orders | 143 | Rows where `Is_Returned` is true |
-| Return rate | 0.76% | 143 ÷ 18,868 |
+| Order Return Rate | 0.76% | Returned orders (143) ÷ all orders (18,868) — order-based |
 | Returned quantity | 353 | Sum of `total_returned_qty` |
 
 The order date range present in the dataset is **2023-12-01 to 2025-11-30**.
+
+**Return Rate definition note.** The 0.76% is an **order-based** return rate
+(returned orders ÷ all orders). The project charter describes a **quantity-based**
+"Return Rate"; the two definitions are not interchangeable. This documented conflict
+is detailed in the [KPI & Aggregation Contract](10_Technical_Documentation/kpi-and-aggregation-contract.md#charter-conflict-return-rate-definition).
 
 ### 7.2 Unavailable metrics
 
@@ -274,7 +286,7 @@ by the output files present in `04_Analysis/`.
 | Cancellation and return | `04_Analysis/19_Cancellation_Return_Analysis.xlsx` |
 | Discount and transaction value | `04_Analysis/20_Discount_Transaction_Value_Analysis.xlsx` |
 | Shipping performance | `04_Analysis/21_Shipping_Performance_Analysis.xlsx` |
-| Exploratory data analysis | `04_Analysis/02_EDA_Notebook.ipynb`, `04_Analysis/03_EDA_Report.pdf` |
+| Exploratory data analysis | `04_Analysis/EDA_Notebook.ipynb`, `04_Analysis/EDA_Report.pdf` |
 | Root cause analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` |
 | Recommendations | `05_Business_Analysis/05_Recommendation.xlsx` |
 
@@ -290,11 +302,11 @@ Listed only where project or repository evidence supports actual use.
 
 | Tool | Evidence |
 |------|----------|
-| Python | Notebook language in `04_Analysis/02_EDA_Notebook.ipynb` |
-| Pandas | Imported in `04_Analysis/02_EDA_Notebook.ipynb` |
-| NumPy | Imported in `04_Analysis/02_EDA_Notebook.ipynb` |
-| Jupyter Notebook | `04_Analysis/02_EDA_Notebook.ipynb` (30 cells) |
-| Microsoft Excel | 8 `.xlsx` deliverables in `02_Data`…`06_Dashboard`, including `06_Dashboard/06_Final_Dashboard.xlsx` (12 sheets) |
+| Python | Notebook language in `04_Analysis/EDA_Notebook.ipynb` |
+| Pandas | Imported in `04_Analysis/EDA_Notebook.ipynb` |
+| NumPy | Imported in `04_Analysis/EDA_Notebook.ipynb` |
+| Jupyter Notebook | `04_Analysis/EDA_Notebook.ipynb` (30 cells) |
+| Microsoft Excel | 9 `.xlsx` deliverables in `02_Data`…`06_Dashboard`, including `06_Dashboard/06_Final_Dashboard.xlsx` (8 sheets) |
 | Git / GitHub | Repository history and directory structure of `docs/Final Project/` |
 
 Additional data libraries are not listed here because no import of them appears
@@ -309,19 +321,38 @@ All paths below were verified to exist in this repository.
 
 | Deliverable | Path | Detail |
 |-------------|------|--------|
-| Project Charter | `01_Project_Charter/01_Project_Charter.pdf` | PDF |
-| Data | `02_Data/Raw_Dataset/22_Raw_Dataset.csv` | 18,868 × 19 |
-| Data | `02_Data/Clean_Dataset/23_Final_Clean_Dataset.csv` | 18,868 × 30 |
-| Data Cleaning | `03_Data_Cleaning/10_Data_Cleaning_Log.xlsx` | 2 worksheets |
-| Analysis | `04_Analysis/02_EDA_Notebook.ipynb` | 30 cells |
-| Analysis | `04_Analysis/03_EDA_Report.pdf` | PDF |
-| Analysis | `04_Analysis/11_…_Analysis.csv` … `21_…_Analysis.xlsx` | 11 analysis outputs |
-| Business Analysis | `05_Business_Analysis/04_Root_Cause_Analysis.pdf` | PDF |
-| Business Analysis | `05_Business_Analysis/05_Recommendation.xlsx` | 6 sheets |
-| Dashboard | `06_Dashboard/06_Final_Dashboard.xlsx` | 12 sheets |
-| Report | `07_Report/07_Final_Analysis_Report.pdf` | PDF |
-| Presentation | `08_Presentation/08_Final_Presentation.pptx` | 50 KB |
+| Project Charter | `01_Project_Charter/Project_Charter.pdf` | PDF |
+| Data | `02_Data/Raw_Dataset/Raw_Dataset.csv` | 18,868 × 19 |
+| Data | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 × 30 |
+| Data Cleaning | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | 2 worksheets |
+| Analysis | `04_Analysis/EDA_Notebook.ipynb` | 30 cells |
+| Analysis | `04_Analysis/EDA_Report.pdf` | PDF |
+| Analysis | `04_Analysis/Supporting_Outputs/` | 11 analysis outputs |
+| Business Analysis | `05_Business_Analysis/Root_Cause_Analysis.pdf` | PDF |
+| Business Analysis | `05_Business_Analysis/Recommendation.xlsx` | 6 sheets |
+| Dashboard | `06_Dashboard/Final_Dashboard.xlsx` | 8 sheets |
+| Report | `07_Report/Final_Analysis_Report.pdf` | PDF |
+| Presentation | `08_Presentation/Final_Presentation.pptx` | 50 KB |
 | Portfolio | `09_Portfolio/09_Portfolio_Project.pdf` | PDF |
+| Technical documentation | [10_Technical_Documentation/kpi-and-aggregation-contract.md](10_Technical_Documentation/kpi-and-aggregation-contract.md) | KPI & aggregation contract (Markdown) |
+| Technical documentation | [10_Technical_Documentation/data-dictionary-and-methodology.md](10_Technical_Documentation/data-dictionary-and-methodology.md) | Data dictionary & methodology (Markdown) |
+| Technical documentation | [10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md](10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md) | Dashboard architecture, QA & reproducibility (Markdown) |
+
+### 10.1 Interactive dashboard (Streamlit)
+
+The interactive dashboard lives in `dashboard/` at the repository root (outside this
+folder). Entry point: `dashboard/app.py`. From the repository root:
+
+```bash
+cd dashboard && python -m venv .venv
+./.venv/bin/pip install -r requirements-dashboard.txt
+./.venv/bin/streamlit run app.py
+./.venv/bin/python -m unittest discover -s tests
+```
+
+The dashboard dependencies are pinned in `dashboard/requirements-dashboard.txt`,
+separate from the repository-wide `requirements.txt`. Architecture, QA, and
+reproducibility details: [Dashboard Architecture, QA & Reproducibility](10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md).
 
 ---
 
@@ -354,10 +385,11 @@ Kaggle.
 > **Indonesia E-Commerce Sales** — Kaggle
 > https://www.kaggle.com/datasets/zkyfauzi/indonesia-ecommerce-sales
 
-The dataset license, version, publication date, access date, and author details
-are **not recorded in this repository** and are not stated here. Anyone reusing
-this project should confirm those terms on the Kaggle dataset page before
-distributing the data or derived outputs.
+The repository's `docs/References.md` records the dataset license as **CC0: Public
+Domain**. Independent confirmation on the current live Kaggle page is **pending**.
+The dataset version, publication date, and access date are **not recorded** in this
+repository and are not stated here. Anyone reusing this project should confirm those
+terms on the Kaggle dataset page before distributing the data or derived outputs.
 
 ---
 
@@ -368,7 +400,7 @@ portfolio purposes.
 
 | Item | Status |
 |------|--------|
-| Project charter | Complete — `01_Project_Charter/01_Project_Charter.pdf` |
+| Project charter | Complete — `01_Project_Charter/Project_Charter.pdf` |
 | Raw dataset | Complete — 18,868 × 19 |
 | Data preparation | Complete — 30 columns, 11 derived |
 | Analysis outputs | Complete — 11 files in `04_Analysis/` |
