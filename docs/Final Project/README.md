@@ -44,7 +44,7 @@ The analytical objective of this project is to:
 | Raw dataset | `02_Data/Raw_Dataset/Raw_Dataset.csv` |
 | Clean dataset | `02_Data/Clean_Dataset/Clean_Dataset.csv` |
 | Raw shape | 18,868 × 19 |
-| Clean shape | 18,868 × 30 |
+| Clean shape | 18,868 × 22 |
 | License | CC0: Public Domain, as recorded in the repository's `docs/References.md` (dataset sources section). Independent confirmation on the current live Kaggle page is pending. |
 | Version | Not recorded in this repository. |
 | Publication date | Not recorded in this repository. |
@@ -100,11 +100,13 @@ modified.
 
 ![Clean Dataset](00_Evidence/03_Clean_Dataset.png)
 
+**Evidence status:** this existing capture reflects the earlier 30-column version. It is retained as historical evidence and must not be used to validate the current 22-column clean dataset. Replace this image with a fresh capture after the Evidence refresh.
+
 ### 4.4 Final Project Structure
 
 *Repository evidence.* The actual directory listing of `docs/Final Project/`, showing
 the top-level project sections and the files inside them with their sizes. (The
-captured listing predates the addition of `10_Technical_Documentation/`.) Nothing was
+captured listing predates the addition of `10_Technical_Documentation/` and the final Evidence refresh.) Nothing was
 renamed or reorganised for presentation.
 
 ![Final Project Structure](00_Evidence/04_Final_Project_Structure.png)
@@ -112,17 +114,18 @@ renamed or reorganised for presentation.
 ### 4.5 Data Overview
 
 *Report-derived evidence.* Cropped from section **"2. Dataset & Analytical Scope"**
-of `04_Analysis/EDA_Report.pdf`, a report already in this repository. It is a
-page capture of that report, **not** a dashboard. It shows the reported scope:
-18,868 rows, 30 columns, the period 2023-12-01 to 2025-11-30, 34 provinces, 640
-product categories, 18,868 total orders, and 47,688 total quantity.
+of `04_Analysis/EDA_Report.pdf`. It is a page capture of that report, **not** a
+dashboard. The report capture states 18,868 rows and 30 columns. That column count
+belongs to an earlier dataset version and conflicts with the current audited clean
+CSV (18,868 × 22). Retain this image as historical report evidence only; do not use
+its 30-column statement as the current dataset specification.
 
 ![Data Overview](00_Evidence/05_Data_Overview.png)
 
 ### 4.6 KPI Evidence
 
 *Report-derived evidence.* Cropped from section **"5. KPI Summary"** of
-`07_Report/07_Final_Analysis_Report.pdf`. It is a page capture of that report,
+`07_Report/Final_Analysis_Report.pdf`. It is a page capture of that report,
 **not** a dashboard. It shows the reported values: revenue Rp962,091,801, 18,868
 orders, 47,688 quantity, AOV Rp50,991, total discount Rp8,004,196, returned quantity
 353, 2,573 cancelled orders, 13.64% cancellation rate, 143 returned orders, 0.76%
@@ -136,21 +139,18 @@ itself.
 
 ![KPI Evidence](00_Evidence/06_KPI_Evidence.png)
 
-### 4.7 Columns added between the raw and clean dataset
+### 4.7 Raw-to-clean schema reconciliation
 
-| Added column | Purpose indicated by name |
-|--------------|---------------------------|
-| `order_datetime` | Parsed order timestamp |
-| `order_date_clean` | Normalized order date |
-| `Metode_Pembayaran_Clean` | Cleaned payment-method value |
-| `Status_Analisis` | Consolidated order-status grouping |
-| `Tahun` | Order year |
-| `Bulan` | Order month |
-| `Tahun_Bulan` | Year-month period key |
-| `Hari` | Order day |
-| `Hari_Minggu` | Order weekday |
-| `Is_Cancelled` | Cancellation flag |
-| `Is_Returned` | Return flag |
+The current audited baseline is **18,868 rows × 19 columns** for the raw dataset
+and **18,868 rows × 22 columns** for the final clean dataset. The final schema
+therefore contains a **net increase of 3 columns**. This net difference must not
+be interpreted as proof that exactly three columns were added: the exact added,
+renamed, or removed fields must be established by comparing the two CSV headers.
+
+An earlier README revision listed 11 derived fields and described the clean file
+as 30 columns. That description is obsolete and is not used as the current schema
+contract. The exact 22-column schema is governed by the final clean CSV and its
+latest audit.
 
 ### 4.8 Other evidence available in this repository
 
@@ -176,6 +176,7 @@ Only paths that exist in this repository are listed.
 
 ```text
 docs/Final Project/
+├── 00_Evidence/                 ← source, dataset, report, and repository captures
 ├── 01_Project_Charter/
 ├── 02_Data/
 │   ├── Raw_Dataset/
@@ -185,7 +186,7 @@ docs/Final Project/
 ├── 05_Business_Analysis/
 ├── 06_Dashboard/
 ├── 07_Report/
-├── 08_Presentation/
+├── 08_Presentation/              ← final deck and six exported chart images
 ├── 09_Portfolio/
 └── 10_Technical_Documentation/   ← technical references (see §10)
 ```
@@ -200,16 +201,15 @@ The project keeps the original data and the prepared data in separate sections.
 |-------|----------|--------|
 | Raw dataset | `02_Data/Raw_Dataset/Raw_Dataset.csv` | Original file, 18,868 rows × 19 columns |
 | Data preparation | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | 2 worksheets recording the preparation steps |
-| Clean dataset | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 rows × 30 columns |
+| Clean dataset | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 rows × 22 columns |
 
 Key properties of the preparation, verified by comparing the two files:
 
 - **Row count is preserved**: 18,868 rows in both the raw and the clean dataset.
-- **Columns are additive**: 11 columns were added, and **no column was removed**.
+- **Schema reconciliation**: the clean dataset has 22 columns versus 19 in the raw dataset, a net increase of 3 columns. The net difference alone does not establish the exact added, renamed, or removed fields.
 - **Raw data is preserved**: the raw file remains in its own section and is not
   overwritten by the clean file.
-- The added columns are derived fields for dates, status grouping, and
-  cancellation/return flags, as listed in section 4.2.
+- The final schema must be interpreted from the current clean CSV header. Earlier documentation that listed 11 derived fields and 30 clean columns is superseded.
 
 The specific operations applied inside the preparation step are recorded in
 `03_Data_Cleaning/Data_Cleaning_Log.xlsx`. No cleaning operation is claimed in
@@ -323,7 +323,7 @@ All paths below were verified to exist in this repository.
 |-------------|------|--------|
 | Project Charter | `01_Project_Charter/Project_Charter.pdf` | PDF |
 | Data | `02_Data/Raw_Dataset/Raw_Dataset.csv` | 18,868 × 19 |
-| Data | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 × 30 |
+| Data | `02_Data/Clean_Dataset/Clean_Dataset.csv` | 18,868 × 22 |
 | Data Cleaning | `03_Data_Cleaning/Data_Cleaning_Log.xlsx` | 2 worksheets |
 | Analysis | `04_Analysis/EDA_Notebook.ipynb` | 30 cells |
 | Analysis | `04_Analysis/EDA_Report.pdf` | PDF |
@@ -332,8 +332,10 @@ All paths below were verified to exist in this repository.
 | Business Analysis | `05_Business_Analysis/Recommendation.xlsx` | 6 sheets |
 | Dashboard | `06_Dashboard/Final_Dashboard.xlsx` | 8 sheets |
 | Report | `07_Report/Final_Analysis_Report.pdf` | PDF |
-| Presentation | `08_Presentation/Final_Presentation.pptx` | 50 KB |
+| Presentation | `08_Presentation/Final_Presentation.pptx` | 1,045,844 bytes (~1.00 MiB) |
 | Portfolio | `09_Portfolio/Portfolio_Project.pdf` | PDF |
+| Project Master Index | `10_Technical_Documentation/Project_Master_Index.xlsx` | Workbook |
+| Presentation assets | `08_Presentation/Chart_Images/` | Six exported visualization PNGs (slides 05–10) |
 | Technical documentation | [10_Technical_Documentation/kpi-and-aggregation-contract.md](10_Technical_Documentation/kpi-and-aggregation-contract.md) | KPI & aggregation contract (Markdown) |
 | Technical documentation | [10_Technical_Documentation/data-dictionary-and-methodology.md](10_Technical_Documentation/data-dictionary-and-methodology.md) | Data dictionary & methodology (Markdown) |
 | Technical documentation | [10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md](10_Technical_Documentation/dashboard-architecture-qa-and-reproducibility.md) | Dashboard architecture, QA & reproducibility (Markdown) |
@@ -402,11 +404,11 @@ portfolio purposes.
 |------|--------|
 | Project charter | Complete — `01_Project_Charter/Project_Charter.pdf` |
 | Raw dataset | Complete — 18,868 × 19 |
-| Data preparation | Complete — 30 columns, 11 derived |
+| Data preparation | Complete — final clean dataset 18,868 × 22; net schema difference +3 columns |
 | Analysis outputs | Complete — 11 files in `04_Analysis/` |
 | Business analysis | Complete — root cause analysis and recommendations |
 | Dashboard, report, presentation, portfolio | Complete |
-| Dataset screenshots | Captured — 6 evidence images, see section 4 |
+| Dataset screenshots | 6 evidence images stored in `00_Evidence/`; some captures are historical and require refresh against the 22-column baseline |
 
 The Indonesia E-Commerce Sales dataset applies to `docs/Final Project/` only. It
 is not used in the weekly project folders of this repository.
